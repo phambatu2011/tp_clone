@@ -1,0 +1,6 @@
+framework module Pods_TpCloneMobileApp {
+  umbrella header "Pods-TpCloneMobileApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
