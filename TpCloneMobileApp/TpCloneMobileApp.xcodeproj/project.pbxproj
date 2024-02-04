@@ -29,6 +29,7 @@
 		7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7601304C2B69F0F300C79D8A /* Main.storyboard */; };
 		760130502B69F0F400C79D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7601304F2B69F0F400C79D8A /* Assets.xcassets */; };
 		760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760130512B69F0F400C79D8A /* LaunchScreen.storyboard */; };
+		F7A1A4EC8FED336D0E2D9B87 /* Pods_TpCloneMobileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F846817B96CB83E6C0E5F219 /* Pods_TpCloneMobileApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,8 +69,8 @@
 		7601304F2B69F0F400C79D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760130522B69F0F400C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760130542B69F0F400C79D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE34E19561275D5463F8DBCB /* Pods_TpCloneMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TpCloneMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFD6B9C697DDE896EE53FDE /* Pods-TpCloneMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpCloneMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-TpCloneMobileApp/Pods-TpCloneMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F846817B96CB83E6C0E5F219 /* Pods_TpCloneMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TpCloneMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A1A4EC8FED336D0E2D9B87 /* Pods_TpCloneMobileApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +92,14 @@
 				4F61F912DA8BF73BBBD9B6F9 /* Pods-TpCloneMobileApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		478D9B15371B1E8C1BDCA8F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F846817B96CB83E6C0E5F219 /* Pods_TpCloneMobileApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		47F2C1622B6CA3750017D932 /* Screens */ = {
@@ -220,21 +230,13 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
-		5998E848DC8D076E6DA3BF29 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AE34E19561275D5463F8DBCB /* Pods_TpCloneMobileApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7601303A2B69F0F300C79D8A = {
 			isa = PBXGroup;
 			children = (
 				760130452B69F0F300C79D8A /* TpCloneMobileApp */,
 				760130442B69F0F300C79D8A /* Products */,
 				3669F6BF5375E4E6059B7E66 /* Pods */,
-				5998E848DC8D076E6DA3BF29 /* Frameworks */,
+				478D9B15371B1E8C1BDCA8F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -540,6 +542,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +574,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
