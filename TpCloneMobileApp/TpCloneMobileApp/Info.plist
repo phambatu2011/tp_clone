@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MPLUSRounded1c-ExtraBold.ttf</string>
+		<string>SFUIText-Regular.ttf</string>
+		<string>SFUIText-Semibold.ttf</string>
+		<string>OpenSans-Semibold.ttf</string>
+		<string>HighTide-Demo.ttf</string>
+		<string>SFUIText-RegularItalic.ttf</string>
+		<string>SFUIText-Medium.ttf</string>
+		<string>SFUIText-Light.ttf</string>
+		<string>TimesNewRoman.ttf</string>
+	</array>
+</dict>
 </plist>

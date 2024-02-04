@@ -119,6 +119,10 @@ class BaseViewController: UIViewController {
         
         navigationController?.navigationItem.leftBarButtonItem = backButtonItem
     }
+    
+    deinit {
+        print("\(String(describing: self.nibName)) deinit")
+    }
 }
 
 extension BaseViewController {

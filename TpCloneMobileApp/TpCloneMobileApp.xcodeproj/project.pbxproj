@@ -24,6 +24,11 @@
 		47F2C1942B6CA5980017D932 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1922B6CA5980017D932 /* LoginViewController.swift */; };
 		47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F2C1932B6CA5980017D932 /* LoginViewController.xib */; };
 		47F2C19C2B6FCE290017D932 /* CommonConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C19B2B6FCE290017D932 /* CommonConst.swift */; };
+		47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1BD2B6FD6C00017D932 /* CommonUtils.swift */; };
+		47F2C1BF2B6FD95D0017D932 /* Tet_holiday.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 47F2C1822B6CA4B50017D932 /* Tet_holiday.mp4 */; };
+		47F2C1C02B6FD9640017D932 /* Tet_holiday_eve_pre.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 47F2C1892B6CA4B60017D932 /* Tet_holiday_eve_pre.mp4 */; };
+		47F2C1C12B6FD9640017D932 /* Tet_holiday_eve.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 47F2C1882B6CA4B60017D932 /* Tet_holiday_eve.mp4 */; };
+		47F2C1D42B701C7C0017D932 /* CommonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1D32B701C7C0017D932 /* CommonColor.swift */; };
 		760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760130462B69F0F300C79D8A /* AppDelegate.swift */; };
 		7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601304A2B69F0F300C79D8A /* ViewController.swift */; };
 		7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7601304C2B69F0F300C79D8A /* Main.storyboard */; };
@@ -61,6 +66,24 @@
 		47F2C1932B6CA5980017D932 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		47F2C19A2B6FCDF50017D932 /* TpCloneMobileApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TpCloneMobileApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		47F2C19B2B6FCE290017D932 /* CommonConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConst.swift; sourceTree = "<group>"; };
+		47F2C1BD2B6FD6C00017D932 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		47F2C1C32B6FEAF00017D932 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		47F2C1C42B6FEAF00017D932 /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		47F2C1C52B6FEAF00017D932 /* b06871f281fee6b241d60582ae9369b9.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = b06871f281fee6b241d60582ae9369b9.ttf; sourceTree = "<group>"; };
+		47F2C1C62B6FEAF00017D932 /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-RegularItalic.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/PlugIns/TPWidgetExtension.appex/SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		47F2C1C72B6FEAF00017D932 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		47F2C1C82B6FEAF10017D932 /* HighTide-Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HighTide-Demo.ttf"; sourceTree = "<group>"; };
+		47F2C1C92B6FEAF10017D932 /* Tharlon-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tharlon-Regular.ttf"; sourceTree = "<group>"; };
+		47F2C1CA2B6FEAF10017D932 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Medium.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/PlugIns/TPWidgetExtension.appex/SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		47F2C1CB2B6FEAF10017D932 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		47F2C1CC2B6FEAF10017D932 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		47F2C1CD2B6FEAF10017D932 /* DroidSansMerged-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSansMerged-Regular.ttf"; sourceTree = "<group>"; };
+		47F2C1CE2B6FEAF10017D932 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		47F2C1CF2B6FEAF10017D932 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Light.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		47F2C1D02B6FEAF10017D932 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Regular.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/PlugIns/TPWidgetExtension.appex/SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		47F2C1D12B6FEAF10017D932 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Semibold.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/PlugIns/TPWidgetExtension.appex/SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		47F2C1D22B6FEAF10017D932 /* 1dc35d25e61d819a9c357074014867ab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1dc35d25e61d819a9c357074014867ab.ttf; sourceTree = "<group>"; };
+		47F2C1D32B701C7C0017D932 /* CommonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
 		6C4FD3112CBD305E4445B583 /* Pods_TpCloneMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TpCloneMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		760130432B69F0F300C79D8A /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpCloneMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760130462B69F0F300C79D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +123,8 @@
 				47F2C1442B6CA3040017D932 /* Storage.swift */,
 				47F2C17C2B6CA43E0017D932 /* CommonEnum.swift */,
 				47F2C19B2B6FCE290017D932 /* CommonConst.swift */,
+				47F2C1BD2B6FD6C00017D932 /* CommonUtils.swift */,
+				47F2C1D32B701C7C0017D932 /* CommonColor.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -146,6 +171,7 @@
 		47F2C17A2B6CA4070017D932 /* AppResources */ = {
 			isa = PBXGroup;
 			children = (
+				47F2C1C22B6FEAE70017D932 /* Font */,
 				760130462B69F0F300C79D8A /* AppDelegate.swift */,
 				47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */,
 				7601304A2B69F0F300C79D8A /* ViewController.swift */,
@@ -211,6 +237,29 @@
 				47F2C19A2B6FCDF50017D932 /* TpCloneMobileApp-Bridging-Header.h */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		47F2C1C22B6FEAE70017D932 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1D22B6FEAF10017D932 /* 1dc35d25e61d819a9c357074014867ab.ttf */,
+				47F2C1C52B6FEAF00017D932 /* b06871f281fee6b241d60582ae9369b9.ttf */,
+				47F2C1CD2B6FEAF10017D932 /* DroidSansMerged-Regular.ttf */,
+				47F2C1C82B6FEAF10017D932 /* HighTide-Demo.ttf */,
+				47F2C1CB2B6FEAF10017D932 /* OpenSans-Semibold.ttf */,
+				47F2C1CF2B6FEAF10017D932 /* SFUIText-Light.ttf */,
+				47F2C1CC2B6FEAF10017D932 /* SFUIText-Light.ttf */,
+				47F2C1CA2B6FEAF10017D932 /* SFUIText-Medium.ttf */,
+				47F2C1C32B6FEAF00017D932 /* SFUIText-Medium.ttf */,
+				47F2C1D02B6FEAF10017D932 /* SFUIText-Regular.ttf */,
+				47F2C1CE2B6FEAF10017D932 /* SFUIText-Regular.ttf */,
+				47F2C1C62B6FEAF00017D932 /* SFUIText-RegularItalic.ttf */,
+				47F2C1D12B6FEAF10017D932 /* SFUIText-Semibold.ttf */,
+				47F2C1C72B6FEAF00017D932 /* SFUIText-Semibold.ttf */,
+				47F2C1C92B6FEAF10017D932 /* Tharlon-Regular.ttf */,
+				47F2C1C42B6FEAF00017D932 /* SFUIText-RegularItalic.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		7601303A2B69F0F300C79D8A = {
@@ -325,6 +374,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F2C1C02B6FD9640017D932 /* Tet_holiday_eve_pre.mp4 in Resources */,
+				47F2C1C12B6FD9640017D932 /* Tet_holiday_eve.mp4 in Resources */,
+				47F2C1BF2B6FD95D0017D932 /* Tet_holiday.mp4 in Resources */,
 				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
 				760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */,
 				760130502B69F0F400C79D8A /* Assets.xcassets in Resources */,
@@ -366,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */,
+				47F2C1D42B701C7C0017D932 /* CommonColor.swift in Sources */,
 				47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */,
 				7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */,
 				47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */,
@@ -381,6 +434,7 @@
 				47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */,
 				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
 				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
+				47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */,
 				47F2C1702B6CA3B40017D932 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

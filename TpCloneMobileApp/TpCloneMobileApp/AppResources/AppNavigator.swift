@@ -34,7 +34,10 @@ final class AppNavigator: AppNavigatorType {
     
     func swichToLogin() {
         let vc = LoginViewController()
-        switchTo(viewController: UINavigationController(rootViewController: vc))
+        let navi = UINavigationController(rootViewController: vc)
+        navi.navigationBar.isHidden = true
+        navi.setNavigationBarHidden(true, animated: true)
+        switchTo(viewController: navi)
     }
     
     //    func switchToTransferHistory() {
