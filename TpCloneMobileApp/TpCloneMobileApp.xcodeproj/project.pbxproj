@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6504ADAE0A14916B04168B9C /* Pods_TpCloneMobileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E336850ACF8465DF1ABC1C /* Pods_TpCloneMobileApp.framework */; };
+		47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */; };
+		47F2C1452B6CA3040017D932 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1442B6CA3040017D932 /* Storage.swift */; };
+		47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */; };
+		47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1672B6CA3B40017D932 /* DateExtension.swift */; };
+		47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1682B6CA3B40017D932 /* UIViewControllerExtension.swift */; };
+		47F2C1702B6CA3B40017D932 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1692B6CA3B40017D932 /* UIColorExtension.swift */; };
+		47F2C1712B6CA3B40017D932 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C16A2B6CA3B40017D932 /* IntExtension.swift */; };
+		47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C16B2B6CA3B40017D932 /* UIView+extentions.swift */; };
+		47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C16C2B6CA3B40017D932 /* UIImageExtension.swift */; };
+		47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1762B6CA3DF0017D932 /* PickTimeView.swift */; };
+		47F2C1792B6CA3DF0017D932 /* PickTimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F2C1772B6CA3DF0017D932 /* PickTimeView.xib */; };
+		47F2C17D2B6CA43E0017D932 /* CommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C17C2B6CA43E0017D932 /* CommonEnum.swift */; };
+		47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C18C2B6CA4F10017D932 /* BaseViewController.swift */; };
+		47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C18F2B6CA51E0017D932 /* TabbarViewController.swift */; };
+		47F2C1942B6CA5980017D932 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1922B6CA5980017D932 /* LoginViewController.swift */; };
+		47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F2C1932B6CA5980017D932 /* LoginViewController.xib */; };
+		47F2C19C2B6FCE290017D932 /* CommonConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C19B2B6FCE290017D932 /* CommonConst.swift */; };
 		760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760130462B69F0F300C79D8A /* AppDelegate.swift */; };
-		760130492B69F0F300C79D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760130482B69F0F300C79D8A /* SceneDelegate.swift */; };
 		7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601304A2B69F0F300C79D8A /* ViewController.swift */; };
 		7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7601304C2B69F0F300C79D8A /* Main.storyboard */; };
 		760130502B69F0F400C79D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7601304F2B69F0F400C79D8A /* Assets.xcassets */; };
@@ -17,17 +32,44 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15032B9DF1B2CE0DC0A94E41 /* Pods-TpCloneMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpCloneMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-TpCloneMobileApp/Pods-TpCloneMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
-		66E336850ACF8465DF1ABC1C /* Pods_TpCloneMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TpCloneMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		47F2C1442B6CA3040017D932 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		47F2C1672B6CA3B40017D932 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		47F2C1682B6CA3B40017D932 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		47F2C1692B6CA3B40017D932 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		47F2C16A2B6CA3B40017D932 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		47F2C16B2B6CA3B40017D932 /* UIView+extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extentions.swift"; sourceTree = "<group>"; };
+		47F2C16C2B6CA3B40017D932 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		47F2C1762B6CA3DF0017D932 /* PickTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickTimeView.swift; sourceTree = "<group>"; };
+		47F2C1772B6CA3DF0017D932 /* PickTimeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickTimeView.xib; sourceTree = "<group>"; };
+		47F2C17C2B6CA43E0017D932 /* CommonEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEnum.swift; sourceTree = "<group>"; };
+		47F2C1802B6CA4B50017D932 /* christmas_pre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = christmas_pre.mp4; sourceTree = "<group>"; };
+		47F2C1812B6CA4B50017D932 /* Tet_holiday_pre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tet_holiday_pre.mp4; sourceTree = "<group>"; };
+		47F2C1822B6CA4B50017D932 /* Tet_holiday.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tet_holiday.mp4; sourceTree = "<group>"; };
+		47F2C1832B6CA4B50017D932 /* TP_Spalsh_2021_iphone_5_5s.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TP_Spalsh_2021_iphone_5_5s.mp4; sourceTree = "<group>"; };
+		47F2C1842B6CA4B50017D932 /* newyear.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newyear.mp4; sourceTree = "<group>"; };
+		47F2C1852B6CA4B50017D932 /* TP_Splash_2021.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TP_Splash_2021.mp4; sourceTree = "<group>"; };
+		47F2C1862B6CA4B60017D932 /* christmas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = christmas.mp4; sourceTree = "<group>"; };
+		47F2C1872B6CA4B60017D932 /* newyear_pre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newyear_pre.mp4; sourceTree = "<group>"; };
+		47F2C1882B6CA4B60017D932 /* Tet_holiday_eve.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tet_holiday_eve.mp4; sourceTree = "<group>"; };
+		47F2C1892B6CA4B60017D932 /* Tet_holiday_eve_pre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tet_holiday_eve_pre.mp4; sourceTree = "<group>"; };
+		47F2C18C2B6CA4F10017D932 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		47F2C18F2B6CA51E0017D932 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		47F2C1922B6CA5980017D932 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		47F2C1932B6CA5980017D932 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		47F2C19A2B6FCDF50017D932 /* TpCloneMobileApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TpCloneMobileApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		47F2C19B2B6FCE290017D932 /* CommonConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConst.swift; sourceTree = "<group>"; };
+		4F61F912DA8BF73BBBD9B6F9 /* Pods-TpCloneMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpCloneMobileApp.release.xcconfig"; path = "Target Support Files/Pods-TpCloneMobileApp/Pods-TpCloneMobileApp.release.xcconfig"; sourceTree = "<group>"; };
 		760130432B69F0F300C79D8A /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpCloneMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760130462B69F0F300C79D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		760130482B69F0F300C79D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7601304A2B69F0F300C79D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7601304D2B69F0F300C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7601304F2B69F0F400C79D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760130522B69F0F400C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760130542B69F0F400C79D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C8D293ED39072E3281EB235 /* Pods-TpCloneMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpCloneMobileApp.release.xcconfig"; path = "Target Support Files/Pods-TpCloneMobileApp/Pods-TpCloneMobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		AE34E19561275D5463F8DBCB /* Pods_TpCloneMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TpCloneMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFD6B9C697DDE896EE53FDE /* Pods-TpCloneMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TpCloneMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-TpCloneMobileApp/Pods-TpCloneMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6504ADAE0A14916B04168B9C /* Pods_TpCloneMobileApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,11 +86,146 @@
 		3669F6BF5375E4E6059B7E66 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				15032B9DF1B2CE0DC0A94E41 /* Pods-TpCloneMobileApp.debug.xcconfig */,
-				8C8D293ED39072E3281EB235 /* Pods-TpCloneMobileApp.release.xcconfig */,
+				BBFD6B9C697DDE896EE53FDE /* Pods-TpCloneMobileApp.debug.xcconfig */,
+				4F61F912DA8BF73BBBD9B6F9 /* Pods-TpCloneMobileApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		47F2C1622B6CA3750017D932 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1912B6CA58B0017D932 /* Login */,
+				47F2C18E2B6CA51E0017D932 /* Tabbar */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		47F2C1632B6CA38A0017D932 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1442B6CA3040017D932 /* Storage.swift */,
+				47F2C17C2B6CA43E0017D932 /* CommonEnum.swift */,
+				47F2C19B2B6FCE290017D932 /* CommonConst.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		47F2C1642B6CA3910017D932 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C18C2B6CA4F10017D932 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		47F2C1652B6CA39C0017D932 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1672B6CA3B40017D932 /* DateExtension.swift */,
+				47F2C16A2B6CA3B40017D932 /* IntExtension.swift */,
+				47F2C1692B6CA3B40017D932 /* UIColorExtension.swift */,
+				47F2C16C2B6CA3B40017D932 /* UIImageExtension.swift */,
+				47F2C16B2B6CA3B40017D932 /* UIView+extentions.swift */,
+				47F2C1682B6CA3B40017D932 /* UIViewControllerExtension.swift */,
+				47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		47F2C1742B6CA3D30017D932 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1752B6CA3DF0017D932 /* PickTime */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		47F2C1752B6CA3DF0017D932 /* PickTime */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1762B6CA3DF0017D932 /* PickTimeView.swift */,
+				47F2C1772B6CA3DF0017D932 /* PickTimeView.xib */,
+			);
+			path = PickTime;
+			sourceTree = "<group>";
+		};
+		47F2C17A2B6CA4070017D932 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				760130462B69F0F300C79D8A /* AppDelegate.swift */,
+				47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */,
+				7601304A2B69F0F300C79D8A /* ViewController.swift */,
+				7601304C2B69F0F300C79D8A /* Main.storyboard */,
+				760130512B69F0F400C79D8A /* LaunchScreen.storyboard */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		47F2C17F2B6CA4710017D932 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C18B2B6CA4CA0017D932 /* Json */,
+				47F2C18A2B6CA4C40017D932 /* Video */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		47F2C18A2B6CA4C40017D932 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1802B6CA4B50017D932 /* christmas_pre.mp4 */,
+				47F2C1862B6CA4B60017D932 /* christmas.mp4 */,
+				47F2C1872B6CA4B60017D932 /* newyear_pre.mp4 */,
+				47F2C1842B6CA4B50017D932 /* newyear.mp4 */,
+				47F2C1892B6CA4B60017D932 /* Tet_holiday_eve_pre.mp4 */,
+				47F2C1882B6CA4B60017D932 /* Tet_holiday_eve.mp4 */,
+				47F2C1812B6CA4B50017D932 /* Tet_holiday_pre.mp4 */,
+				47F2C1822B6CA4B50017D932 /* Tet_holiday.mp4 */,
+				47F2C1832B6CA4B50017D932 /* TP_Spalsh_2021_iphone_5_5s.mp4 */,
+				47F2C1852B6CA4B50017D932 /* TP_Splash_2021.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		47F2C18B2B6CA4CA0017D932 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		47F2C18E2B6CA51E0017D932 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C18F2B6CA51E0017D932 /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		47F2C1912B6CA58B0017D932 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C1922B6CA5980017D932 /* LoginViewController.swift */,
+				47F2C1932B6CA5980017D932 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		47F2C1992B6FCDC30017D932 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				47F2C19A2B6FCDF50017D932 /* TpCloneMobileApp-Bridging-Header.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5998E848DC8D076E6DA3BF29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE34E19561275D5463F8DBCB /* Pods_TpCloneMobileApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7601303A2B69F0F300C79D8A = {
@@ -58,7 +234,7 @@
 				760130452B69F0F300C79D8A /* TpCloneMobileApp */,
 				760130442B69F0F300C79D8A /* Products */,
 				3669F6BF5375E4E6059B7E66 /* Pods */,
-				9201F648D932051353C8D579 /* Frameworks */,
+				5998E848DC8D076E6DA3BF29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,23 +249,18 @@
 		760130452B69F0F300C79D8A /* TpCloneMobileApp */ = {
 			isa = PBXGroup;
 			children = (
-				760130462B69F0F300C79D8A /* AppDelegate.swift */,
-				760130482B69F0F300C79D8A /* SceneDelegate.swift */,
-				7601304A2B69F0F300C79D8A /* ViewController.swift */,
-				7601304C2B69F0F300C79D8A /* Main.storyboard */,
+				47F2C1992B6FCDC30017D932 /* Library */,
 				7601304F2B69F0F400C79D8A /* Assets.xcassets */,
-				760130512B69F0F400C79D8A /* LaunchScreen.storyboard */,
 				760130542B69F0F400C79D8A /* Info.plist */,
+				47F2C17F2B6CA4710017D932 /* Animation */,
+				47F2C17A2B6CA4070017D932 /* AppResources */,
+				47F2C1742B6CA3D30017D932 /* CustomView */,
+				47F2C1652B6CA39C0017D932 /* Extension */,
+				47F2C1642B6CA3910017D932 /* Base */,
+				47F2C1632B6CA38A0017D932 /* Common */,
+				47F2C1622B6CA3750017D932 /* Screens */,
 			);
 			path = TpCloneMobileApp;
-			sourceTree = "<group>";
-		};
-		9201F648D932051353C8D579 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				66E336850ACF8465DF1ABC1C /* Pods_TpCloneMobileApp.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 760130572B69F0F400C79D8A /* Build configuration list for PBXNativeTarget "TpCloneMobileApp" */;
 			buildPhases = (
-				BD782427474A38590BB62A19 /* [CP] Check Pods Manifest.lock */,
+				5E62D0B13B19EEC8CC8FB579 /* [CP] Check Pods Manifest.lock */,
 				7601303F2B69F0F300C79D8A /* Sources */,
 				760130402B69F0F300C79D8A /* Frameworks */,
 				760130412B69F0F300C79D8A /* Resources */,
@@ -125,6 +296,7 @@
 				TargetAttributes = {
 					760130422B69F0F300C79D8A = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -151,8 +323,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
 				760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */,
 				760130502B69F0F400C79D8A /* Assets.xcassets in Resources */,
+				47F2C1792B6CA3DF0017D932 /* PickTimeView.xib in Resources */,
 				7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +334,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BD782427474A38590BB62A19 /* [CP] Check Pods Manifest.lock */ = {
+		5E62D0B13B19EEC8CC8FB579 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,9 +363,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */,
+				47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */,
 				7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */,
+				47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */,
+				47F2C17D2B6CA43E0017D932 /* CommonEnum.swift in Sources */,
+				47F2C1452B6CA3040017D932 /* Storage.swift in Sources */,
+				47F2C1942B6CA5980017D932 /* LoginViewController.swift in Sources */,
+				47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */,
+				47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */,
+				47F2C1712B6CA3B40017D932 /* IntExtension.swift in Sources */,
+				47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */,
+				47F2C19C2B6FCE290017D932 /* CommonConst.swift in Sources */,
 				760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */,
-				760130492B69F0F300C79D8A /* SceneDelegate.swift in Sources */,
+				47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */,
+				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
+				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
+				47F2C1702B6CA3B40017D932 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +526,11 @@
 		};
 		760130582B69F0F400C79D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15032B9DF1B2CE0DC0A94E41 /* Pods-TpCloneMobileApp.debug.xcconfig */;
+			baseConfigurationReference = BBFD6B9C697DDE896EE53FDE /* Pods-TpCloneMobileApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -359,6 +548,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = appTP.clone.TpCloneMobileApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TpCloneMobileApp/Library/TpCloneMobileApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,10 +557,11 @@
 		};
 		760130592B69F0F400C79D8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C8D293ED39072E3281EB235 /* Pods-TpCloneMobileApp.release.xcconfig */;
+			baseConfigurationReference = 4F61F912DA8BF73BBBD9B6F9 /* Pods-TpCloneMobileApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -387,6 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = appTP.clone.TpCloneMobileApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TpCloneMobileApp/Library/TpCloneMobileApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
