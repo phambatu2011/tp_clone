@@ -157,7 +157,7 @@ public extension UIView {
                        options: [.curveEaseIn],
                        animations: {
             animatedView.transform = CGAffineTransform.identity
-        }, completion: {[weak self] status in
+        }, completion: { status in
             if status {
                 callback?()
             }
