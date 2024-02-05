@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479A6CEE2B708CD200D9E495 /* TabTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */; };
+		479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */; };
+		479A6CF32B708D0700D9E495 /* TabSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */; };
+		479A6CF42B708D0700D9E495 /* TabSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CF22B708D0700D9E495 /* TabSettingViewController.xib */; };
+		479A6CF92B708D2800D9E495 /* TabHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CF72B708D2800D9E495 /* TabHomeViewController.swift */; };
+		479A6CFA2B708D2800D9E495 /* TabHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CF82B708D2800D9E495 /* TabHomeViewController.xib */; };
+		479A6CFD2B708D3200D9E495 /* TabSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CFB2B708D3200D9E495 /* TabSearchViewController.swift */; };
+		479A6CFE2B708D3200D9E495 /* TabSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CFC2B708D3200D9E495 /* TabSearchViewController.xib */; };
+		479A6D012B708F2400D9E495 /* tabbar_qr.gif in Resources */ = {isa = PBXBuildFile; fileRef = 479A6D002B708F2400D9E495 /* tabbar_qr.gif */; };
 		47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */; };
 		47F2C1452B6CA3040017D932 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1442B6CA3040017D932 /* Storage.swift */; };
 		47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */; };
@@ -38,6 +47,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTransferViewController.swift; sourceTree = "<group>"; };
+		479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferViewController.xib; sourceTree = "<group>"; };
+		479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSettingViewController.swift; sourceTree = "<group>"; };
+		479A6CF22B708D0700D9E495 /* TabSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabSettingViewController.xib; sourceTree = "<group>"; };
+		479A6CF72B708D2800D9E495 /* TabHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomeViewController.swift; sourceTree = "<group>"; };
+		479A6CF82B708D2800D9E495 /* TabHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabHomeViewController.xib; sourceTree = "<group>"; };
+		479A6CFB2B708D3200D9E495 /* TabSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSearchViewController.swift; sourceTree = "<group>"; };
+		479A6CFC2B708D3200D9E495 /* TabSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabSearchViewController.xib; sourceTree = "<group>"; };
+		479A6D002B708F2400D9E495 /* tabbar_qr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tabbar_qr.gif; sourceTree = "<group>"; };
 		47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
 		47F2C1442B6CA3040017D932 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -108,6 +126,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		477FC4E82B709BEE002DCED2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				477FC4EA2B709C0B002DCED2 /* Table */,
+				477FC4E92B709C02002DCED2 /* Collection */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		477FC4E92B709C02002DCED2 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		477FC4EA2B709C0B002DCED2 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		479A6CEB2B708CBE00D9E495 /* TabTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				477FC4E82B709BEE002DCED2 /* Cell */,
+				479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */,
+				479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */,
+			);
+			path = TabTransfer;
+			sourceTree = "<group>";
+		};
+		479A6CF02B708CDE00D9E495 /* TabSetting */ = {
+			isa = PBXGroup;
+			children = (
+				479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */,
+				479A6CF22B708D0700D9E495 /* TabSettingViewController.xib */,
+			);
+			path = TabSetting;
+			sourceTree = "<group>";
+		};
+		479A6CF52B708D1100D9E495 /* TabSearch */ = {
+			isa = PBXGroup;
+			children = (
+				479A6CFB2B708D3200D9E495 /* TabSearchViewController.swift */,
+				479A6CFC2B708D3200D9E495 /* TabSearchViewController.xib */,
+			);
+			path = TabSearch;
+			sourceTree = "<group>";
+		};
+		479A6CF62B708D1900D9E495 /* TabHome */ = {
+			isa = PBXGroup;
+			children = (
+				479A6CF72B708D2800D9E495 /* TabHomeViewController.swift */,
+				479A6CF82B708D2800D9E495 /* TabHomeViewController.xib */,
+			);
+			path = TabHome;
+			sourceTree = "<group>";
+		};
+		479A6CFF2B708F1A00D9E495 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				479A6D002B708F2400D9E495 /* tabbar_qr.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 		47F2C1622B6CA3750017D932 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +270,7 @@
 		47F2C17F2B6CA4710017D932 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				479A6CFF2B708F1A00D9E495 /* Gif */,
 				47F2C18B2B6CA4CA0017D932 /* Json */,
 				47F2C18A2B6CA4C40017D932 /* Video */,
 			);
@@ -218,6 +305,10 @@
 			isa = PBXGroup;
 			children = (
 				47F2C18F2B6CA51E0017D932 /* TabbarViewController.swift */,
+				479A6CF62B708D1900D9E495 /* TabHome */,
+				479A6CF52B708D1100D9E495 /* TabSearch */,
+				479A6CF02B708CDE00D9E495 /* TabSetting */,
+				479A6CEB2B708CBE00D9E495 /* TabTransfer */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -374,8 +465,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479A6CFE2B708D3200D9E495 /* TabSearchViewController.xib in Resources */,
 				47F2C1C02B6FD9640017D932 /* Tet_holiday_eve_pre.mp4 in Resources */,
+				479A6CF42B708D0700D9E495 /* TabSettingViewController.xib in Resources */,
+				479A6CFA2B708D2800D9E495 /* TabHomeViewController.xib in Resources */,
 				47F2C1C12B6FD9640017D932 /* Tet_holiday_eve.mp4 in Resources */,
+				479A6D012B708F2400D9E495 /* tabbar_qr.gif in Resources */,
+				479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */,
 				47F2C1BF2B6FD95D0017D932 /* Tet_holiday.mp4 in Resources */,
 				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
 				760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */,
@@ -417,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479A6CF32B708D0700D9E495 /* TabSettingViewController.swift in Sources */,
 				47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */,
 				47F2C1D42B701C7C0017D932 /* CommonColor.swift in Sources */,
 				47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */,
@@ -428,10 +525,13 @@
 				47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */,
 				47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */,
 				47F2C1712B6CA3B40017D932 /* IntExtension.swift in Sources */,
+				479A6CFD2B708D3200D9E495 /* TabSearchViewController.swift in Sources */,
 				47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */,
 				47F2C19C2B6FCE290017D932 /* CommonConst.swift in Sources */,
+				479A6CEE2B708CD200D9E495 /* TabTransferViewController.swift in Sources */,
 				760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */,
 				47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */,
+				479A6CF92B708D2800D9E495 /* TabHomeViewController.swift in Sources */,
 				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
 				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
 				47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */,
@@ -589,6 +689,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2KXX7Y4LG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TpCloneMobileApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TPBank Mobile";
@@ -622,6 +723,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2KXX7Y4LG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TpCloneMobileApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TPBank Mobile";

@@ -11,6 +11,7 @@ class PickTimeView: UIView {
     @IBOutlet weak var pickerTime: UIDatePicker!
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
         initXib()
         setTaps()
     }
