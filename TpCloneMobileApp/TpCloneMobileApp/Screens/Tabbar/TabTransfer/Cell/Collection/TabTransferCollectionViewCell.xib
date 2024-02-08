@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TabTransferCollectionViewCell" customModule="TpCloneMobileApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="409"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="409"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atm-icon-transfer-1" translatesAutoresizingMaskIntoConstraints="NO" id="gN4-dq-E3s">
+                        <rect key="frame" x="5" y="69" width="289" height="28"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIP-UC-SPC">
+                        <rect key="frame" x="0.0" y="102" width="299" height="15.666666666666671"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.17254901960784313" green="0.12156862745098039" blue="0.31372549019607843" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="gN4-dq-E3s" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="0it-oj-xLd"/>
+                <constraint firstItem="gN4-dq-E3s" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" constant="10" id="Fxe-0U-zgx"/>
+                <constraint firstAttribute="trailing" secondItem="gN4-dq-E3s" secondAttribute="trailing" constant="5" id="LSY-hz-dPa"/>
+                <constraint firstItem="DIP-UC-SPC" firstAttribute="top" secondItem="gN4-dq-E3s" secondAttribute="bottom" constant="5" id="R4d-Ze-JeO"/>
+                <constraint firstAttribute="trailing" secondItem="DIP-UC-SPC" secondAttribute="trailing" id="UlH-gQ-P8f"/>
+                <constraint firstItem="DIP-UC-SPC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zyO-od-i0j"/>
+            </constraints>
+            <size key="customSize" width="299" height="409"/>
+            <connections>
+                <outlet property="image" destination="gN4-dq-E3s" id="yUv-V3-XgF"/>
+                <outlet property="title" destination="DIP-UC-SPC" id="oHF-LL-LKY"/>
+            </connections>
+            <point key="canvasLocation" x="278.62595419847327" y="146.12676056338029"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="atm-icon-transfer-1" width="28" height="28"/>
+    </resources>
+</document>

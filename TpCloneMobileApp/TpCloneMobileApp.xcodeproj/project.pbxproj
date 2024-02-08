@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4773CC872B7541D100DB7EC1 /* TabTransferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4773CC852B7541D100DB7EC1 /* TabTransferTableViewCell.swift */; };
+		4773CC882B7541D100DB7EC1 /* TabTransferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4773CC862B7541D100DB7EC1 /* TabTransferTableViewCell.xib */; };
+		4773CC8B2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4773CC892B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift */; };
+		4773CC8C2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4773CC8A2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib */; };
 		479A6CEE2B708CD200D9E495 /* TabTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */; };
 		479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */; };
 		479A6CF32B708D0700D9E495 /* TabSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */; };
@@ -47,6 +51,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4773CC852B7541D100DB7EC1 /* TabTransferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTransferTableViewCell.swift; sourceTree = "<group>"; };
+		4773CC862B7541D100DB7EC1 /* TabTransferTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferTableViewCell.xib; sourceTree = "<group>"; };
+		4773CC892B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTransferCollectionViewCell.swift; sourceTree = "<group>"; };
+		4773CC8A2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferCollectionViewCell.xib; sourceTree = "<group>"; };
 		479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTransferViewController.swift; sourceTree = "<group>"; };
 		479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferViewController.xib; sourceTree = "<group>"; };
 		479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSettingViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +146,8 @@
 		477FC4E92B709C02002DCED2 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
+				4773CC892B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift */,
+				4773CC8A2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -145,6 +155,8 @@
 		477FC4EA2B709C0B002DCED2 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				4773CC852B7541D100DB7EC1 /* TabTransferTableViewCell.swift */,
+				4773CC862B7541D100DB7EC1 /* TabTransferTableViewCell.xib */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -471,6 +483,8 @@
 				479A6CFA2B708D2800D9E495 /* TabHomeViewController.xib in Resources */,
 				47F2C1C12B6FD9640017D932 /* Tet_holiday_eve.mp4 in Resources */,
 				479A6D012B708F2400D9E495 /* tabbar_qr.gif in Resources */,
+				4773CC882B7541D100DB7EC1 /* TabTransferTableViewCell.xib in Resources */,
+				4773CC8C2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib in Resources */,
 				479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */,
 				47F2C1BF2B6FD95D0017D932 /* Tet_holiday.mp4 in Resources */,
 				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
@@ -521,6 +535,7 @@
 				47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */,
 				47F2C17D2B6CA43E0017D932 /* CommonEnum.swift in Sources */,
 				47F2C1452B6CA3040017D932 /* Storage.swift in Sources */,
+				4773CC872B7541D100DB7EC1 /* TabTransferTableViewCell.swift in Sources */,
 				47F2C1942B6CA5980017D932 /* LoginViewController.swift in Sources */,
 				47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */,
 				47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */,
@@ -534,6 +549,7 @@
 				479A6CF92B708D2800D9E495 /* TabHomeViewController.swift in Sources */,
 				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
 				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
+				4773CC8B2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift in Sources */,
 				47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */,
 				47F2C1702B6CA3B40017D932 /* UIColorExtension.swift in Sources */,
 			);

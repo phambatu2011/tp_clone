@@ -121,7 +121,7 @@ class BaseViewController: UIViewController {
     }
     
     deinit {
-        print("\(String(describing: self.nibName)) deinit")
+        print("\(String(describing: self.nibName.unsafelyUnwrapped)) deinit")
     }
 }
 

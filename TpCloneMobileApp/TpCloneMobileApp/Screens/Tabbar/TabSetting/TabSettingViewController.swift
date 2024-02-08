@@ -1,6 +1,6 @@
 import UIKit
 
-class TabSettingViewController: UIViewController {
+class TabSettingViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

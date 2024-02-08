@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  TpCloneMobileApp
-//
-//  Created by Tú Phạm Bá on 31/01/2024.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

@@ -1,7 +1,9 @@
 import UIKit
 
-class TabSearchViewController: UIViewController {
+class TabSearchViewController: BaseViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
