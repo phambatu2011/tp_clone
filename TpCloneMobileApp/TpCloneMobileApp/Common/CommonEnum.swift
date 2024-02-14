@@ -63,3 +63,45 @@ enum TransferListEnum: Int, CaseIterable {
         }
     }
 }
+
+enum EnquiryEnum {
+    case account, save, loan, credit, transfer, information, ctCommand
+    
+    var title: String {
+        switch self {
+        case .account:
+            return "Tài khoản"
+        case .save:
+            return "Tiết kiệm"
+        case .loan:
+            return "Khoản vay"
+        case .credit:
+            return "Thẻ tín dụng"
+        case .transfer:
+            return "Lệnh chuyển tiền"
+        case .information:
+            return "Thông tin tổng hợp"
+        case .ctCommand:
+            return "Lệnh CT Tách nhỏ"
+        }
+    }
+    
+    var imageString: String {
+        switch self {
+        case .account:
+            return "Enquiries_Account"
+        case .save:
+            return "Enquiries_Savings"
+        case .loan:
+            return "Enquiries_Loans"
+        case .credit:
+            return "Enquiries_CreditCard"
+        case .transfer:
+            return "Enquiries_Transfer"
+        case .information:
+            return "Enquiries_Use_Infor"
+        case .ctCommand:
+            return "Enquiries_SplitFunds"
+        }
+    }
+}
