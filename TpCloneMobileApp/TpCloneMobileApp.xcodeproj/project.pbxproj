@@ -20,6 +20,16 @@
 		479A6CFD2B708D3200D9E495 /* TabSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CFB2B708D3200D9E495 /* TabSearchViewController.swift */; };
 		479A6CFE2B708D3200D9E495 /* TabSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CFC2B708D3200D9E495 /* TabSearchViewController.xib */; };
 		479A6D012B708F2400D9E495 /* tabbar_qr.gif in Resources */ = {isa = PBXBuildFile; fileRef = 479A6D002B708F2400D9E495 /* tabbar_qr.gif */; };
+		47A132EF2B820BB300ADC776 /* SettingInforTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A132ED2B820BB300ADC776 /* SettingInforTableViewCell.swift */; };
+		47A132F02B820BB300ADC776 /* SettingInforTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A132EE2B820BB300ADC776 /* SettingInforTableViewCell.xib */; };
+		47A132F32B820BC600ADC776 /* TopSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A132F12B820BC600ADC776 /* TopSettingTableViewCell.swift */; };
+		47A132F42B820BC600ADC776 /* TopSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A132F22B820BC600ADC776 /* TopSettingTableViewCell.xib */; };
+		47A132FA2B820D6E00ADC776 /* SettingCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A132F82B820D6E00ADC776 /* SettingCellTableViewCell.swift */; };
+		47A132FB2B820D6E00ADC776 /* SettingCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A132F92B820D6E00ADC776 /* SettingCellTableViewCell.xib */; };
+		47A132FF2B820E1600ADC776 /* SettingSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A132FD2B820E1600ADC776 /* SettingSearchTableViewCell.swift */; };
+		47A133002B820E1600ADC776 /* SettingSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A132FE2B820E1600ADC776 /* SettingSearchTableViewCell.xib */; };
+		47A133042B820FC300ADC776 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A133022B820FC300ADC776 /* LogoutTableViewCell.swift */; };
+		47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A133032B820FC300ADC776 /* LogoutTableViewCell.xib */; };
 		47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */; };
 		47F2C1452B6CA3040017D932 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1442B6CA3040017D932 /* Storage.swift */; };
 		47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */; };
@@ -64,6 +74,16 @@
 		479A6CFB2B708D3200D9E495 /* TabSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSearchViewController.swift; sourceTree = "<group>"; };
 		479A6CFC2B708D3200D9E495 /* TabSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabSearchViewController.xib; sourceTree = "<group>"; };
 		479A6D002B708F2400D9E495 /* tabbar_qr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tabbar_qr.gif; sourceTree = "<group>"; };
+		47A132ED2B820BB300ADC776 /* SettingInforTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInforTableViewCell.swift; sourceTree = "<group>"; };
+		47A132EE2B820BB300ADC776 /* SettingInforTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingInforTableViewCell.xib; sourceTree = "<group>"; };
+		47A132F12B820BC600ADC776 /* TopSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSettingTableViewCell.swift; sourceTree = "<group>"; };
+		47A132F22B820BC600ADC776 /* TopSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopSettingTableViewCell.xib; sourceTree = "<group>"; };
+		47A132F82B820D6E00ADC776 /* SettingCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellTableViewCell.swift; sourceTree = "<group>"; };
+		47A132F92B820D6E00ADC776 /* SettingCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCellTableViewCell.xib; sourceTree = "<group>"; };
+		47A132FD2B820E1600ADC776 /* SettingSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSearchTableViewCell.swift; sourceTree = "<group>"; };
+		47A132FE2B820E1600ADC776 /* SettingSearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingSearchTableViewCell.xib; sourceTree = "<group>"; };
+		47A133022B820FC300ADC776 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
+		47A133032B820FC300ADC776 /* LogoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutTableViewCell.xib; sourceTree = "<group>"; };
 		47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
 		47F2C1442B6CA3040017D932 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -174,6 +194,7 @@
 		479A6CF02B708CDE00D9E495 /* TabSetting */ = {
 			isa = PBXGroup;
 			children = (
+				47A132EC2B820B9800ADC776 /* Cell */,
 				479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */,
 				479A6CF22B708D0700D9E495 /* TabSettingViewController.xib */,
 			);
@@ -204,6 +225,63 @@
 				479A6D002B708F2400D9E495 /* tabbar_qr.gif */,
 			);
 			path = Gif;
+			sourceTree = "<group>";
+		};
+		47A132EC2B820B9800ADC776 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				47A133012B820FB900ADC776 /* Logout */,
+				47A132FC2B820E0B00ADC776 /* Search */,
+				47A132F72B820D5F00ADC776 /* SettingCell */,
+				47A132F62B820BDD00ADC776 /* Infor */,
+				47A132F52B820BCC00ADC776 /* TopSetting */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		47A132F52B820BCC00ADC776 /* TopSetting */ = {
+			isa = PBXGroup;
+			children = (
+				47A132F12B820BC600ADC776 /* TopSettingTableViewCell.swift */,
+				47A132F22B820BC600ADC776 /* TopSettingTableViewCell.xib */,
+			);
+			path = TopSetting;
+			sourceTree = "<group>";
+		};
+		47A132F62B820BDD00ADC776 /* Infor */ = {
+			isa = PBXGroup;
+			children = (
+				47A132ED2B820BB300ADC776 /* SettingInforTableViewCell.swift */,
+				47A132EE2B820BB300ADC776 /* SettingInforTableViewCell.xib */,
+			);
+			path = Infor;
+			sourceTree = "<group>";
+		};
+		47A132F72B820D5F00ADC776 /* SettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				47A132F82B820D6E00ADC776 /* SettingCellTableViewCell.swift */,
+				47A132F92B820D6E00ADC776 /* SettingCellTableViewCell.xib */,
+			);
+			path = SettingCell;
+			sourceTree = "<group>";
+		};
+		47A132FC2B820E0B00ADC776 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				47A132FD2B820E1600ADC776 /* SettingSearchTableViewCell.swift */,
+				47A132FE2B820E1600ADC776 /* SettingSearchTableViewCell.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		47A133012B820FB900ADC776 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				47A133022B820FC300ADC776 /* LogoutTableViewCell.swift */,
+				47A133032B820FC300ADC776 /* LogoutTableViewCell.xib */,
+			);
+			path = Logout;
 			sourceTree = "<group>";
 		};
 		47F2C1622B6CA3750017D932 /* Screens */ = {
@@ -479,6 +557,7 @@
 			files = (
 				479A6CFE2B708D3200D9E495 /* TabSearchViewController.xib in Resources */,
 				47F2C1C02B6FD9640017D932 /* Tet_holiday_eve_pre.mp4 in Resources */,
+				47A133002B820E1600ADC776 /* SettingSearchTableViewCell.xib in Resources */,
 				479A6CF42B708D0700D9E495 /* TabSettingViewController.xib in Resources */,
 				479A6CFA2B708D2800D9E495 /* TabHomeViewController.xib in Resources */,
 				47F2C1C12B6FD9640017D932 /* Tet_holiday_eve.mp4 in Resources */,
@@ -490,7 +569,11 @@
 				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
 				760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */,
 				760130502B69F0F400C79D8A /* Assets.xcassets in Resources */,
+				47A132F02B820BB300ADC776 /* SettingInforTableViewCell.xib in Resources */,
+				47A132FB2B820D6E00ADC776 /* SettingCellTableViewCell.xib in Resources */,
 				47F2C1792B6CA3DF0017D932 /* PickTimeView.xib in Resources */,
+				47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */,
+				47A132F42B820BC600ADC776 /* TopSettingTableViewCell.xib in Resources */,
 				7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,16 +621,21 @@
 				4773CC872B7541D100DB7EC1 /* TabTransferTableViewCell.swift in Sources */,
 				47F2C1942B6CA5980017D932 /* LoginViewController.swift in Sources */,
 				47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */,
+				47A133042B820FC300ADC776 /* LogoutTableViewCell.swift in Sources */,
 				47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */,
+				47A132FF2B820E1600ADC776 /* SettingSearchTableViewCell.swift in Sources */,
 				47F2C1712B6CA3B40017D932 /* IntExtension.swift in Sources */,
 				479A6CFD2B708D3200D9E495 /* TabSearchViewController.swift in Sources */,
 				47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */,
 				47F2C19C2B6FCE290017D932 /* CommonConst.swift in Sources */,
 				479A6CEE2B708CD200D9E495 /* TabTransferViewController.swift in Sources */,
+				47A132F32B820BC600ADC776 /* TopSettingTableViewCell.swift in Sources */,
+				47A132FA2B820D6E00ADC776 /* SettingCellTableViewCell.swift in Sources */,
 				760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */,
 				47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */,
 				479A6CF92B708D2800D9E495 /* TabHomeViewController.swift in Sources */,
 				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
+				47A132EF2B820BB300ADC776 /* SettingInforTableViewCell.swift in Sources */,
 				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
 				4773CC8B2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift in Sources */,
 				47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */,

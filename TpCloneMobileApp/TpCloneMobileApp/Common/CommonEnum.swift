@@ -105,3 +105,125 @@ enum EnquiryEnum {
         }
     }
 }
+
+enum TopSettingEnum: Int, CaseIterable {
+    case otp = 0, changepw, changeAuth, center, invite, changeUI
+    
+    var title: String {
+        switch self {
+        case .otp:
+            return "Lấy mã Smart OTP từ eToken+"
+        case .changepw:
+            return "Đổi mật khẩu tài khoản"
+        case .changeAuth:
+            return "Đổi phương thức xác thực"
+        case .center:
+            return "Trung tâm trợ giúp"
+        case .invite:
+            return "Mời bạn & người thân"
+        case .changeUI:
+            return "Thay đổi giao diện"
+        }
+    }
+    
+    var imageString: String {
+        switch self {
+        case .otp:
+            return "settings-grid-etoken"
+        case .changepw:
+            return "settings-grid-password"
+        case .changeAuth:
+            return "settings-grid-authMethod"
+        case .center:
+            return "settings-grid-contact"
+        case .invite:
+            return "settings-grid-invite"
+        case .changeUI:
+            return "settings-grid-ui"
+        }
+    }
+}
+
+enum FirstSectionSettingEnum: Int, CaseIterable {
+    case open = 0, shop, shopname, conyeu, phone, favorite
+    
+    var title: String {
+        switch self {
+        case .open:
+            return "Mở tài khoản số đẹp"
+        case .shop:
+            return "Tài khoản Kinh doanh/Shop"
+        case .shopname:
+            return "Mở Tài khoản Nickname/Shopname"
+        case .conyeu:
+            return "Tài khoản Con yêu"
+        case .phone:
+            return "Cài đặt nhận tiền qua số điện thoại"
+        case .favorite:
+            return "Cài đặt Tài khoản Ưa thích"
+        }
+    }
+    
+    var imageString: String {
+        switch self {
+        case .open:
+            return "settings-new-digital-account"
+        case .shop:
+            return "setting-business-shop"
+        case .shopname:
+            return "settings-new-alias"
+        case .conyeu:
+            return "settings-share-mode-icon"
+        case .phone:
+            return "settings-new-phone-account"
+        case .favorite:
+            return "setting-favourite"
+        }
+    }
+}
+
+enum SecondSectionSettingEnum: Int, CaseIterable {
+    case faceid = 0, auth2, facepay, hanmuc, voicepay, notification, device, language
+    
+    var title: String {
+        switch self {
+        case .faceid:
+            return "Cài đặt Face ID/Touch ID"
+        case .auth2:
+            return "Cài đặt bảo mật 2 lớp"
+        case .facepay:
+            return "Đăng kí dịch vụ Facepay"
+        case .hanmuc:
+            return "Thay đổi hạn mức giao dịch"
+        case .voicepay:
+            return "Cài đặt VoicePay"
+        case .notification:
+            return "Cài đặt thông báo"
+        case .device:
+            return "Quản lý thiết bị"
+        case .language:
+            return "Chọn ngôn ngữ"
+        }
+    }
+    
+    var imageString: String {
+        switch self {
+        case .faceid:
+            return "settings-new-biometric"
+        case .auth2:
+            return "settings-new-2fa"
+        case .facepay:
+            return "settings-new-facepay"
+        case .hanmuc:
+            return "settings-transfer-limitation"
+        case .voicepay:
+            return "settings-new-voice-pay"
+        case .notification:
+            return "settings-new-notification"
+        case .device:
+            return "settings-new-device"
+        case .language:
+            return "settings-new-language"
+        }
+    }
+}
