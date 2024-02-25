@@ -114,15 +114,15 @@ enum TopSettingEnum: Int, CaseIterable {
         case .otp:
             return "Lấy mã Smart OTP từ eToken+"
         case .changepw:
-            return "Đổi mật khẩu tài khoản"
+            return "Đổi mật khẩu\ntài khoản"
         case .changeAuth:
-            return "Đổi phương thức xác thực"
+            return "Đổi phương thức\nxác thực"
         case .center:
-            return "Trung tâm trợ giúp"
+            return "Trung tâm\ntrợ giúp"
         case .invite:
-            return "Mời bạn & người thân"
+            return "Mời bạn &\nngười thân"
         case .changeUI:
-            return "Thay đổi giao diện"
+            return "Thay đổi\ngiao diện"
         }
     }
     

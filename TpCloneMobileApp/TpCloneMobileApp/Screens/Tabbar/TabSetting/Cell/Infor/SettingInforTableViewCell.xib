@@ -25,16 +25,16 @@
                         </constraints>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HjD-V9-WKf">
-                        <rect key="frame" x="96" y="25.000000000000004" width="151" height="50.333333333333343"/>
+                        <rect key="frame" x="96.000000000000014" y="25.000000000000004" width="154.33333333333337" height="50.333333333333343"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nguyen Thanh Nam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTd-BZ-Tjq">
-                                <rect key="frame" x="0.0" y="0.0" width="151" height="20.333333333333332"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="0.0" y="0.0" width="154.33333333333334" height="20.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.17254901960784313" green="0.12156862745098039" blue="0.31372549019607843" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_scc" translatesAutoresizingMaskIntoConstraints="NO" id="zt6-Fe-IML">
-                                <rect key="frame" x="0.6666666666666714" y="20.333333333333336" width="150" height="30"/>
+                                <rect key="frame" x="2.3333333333333286" y="20.333333333333336" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="NS8-sz-WPm"/>
                                     <constraint firstAttribute="width" constant="150" id="UAy-Vy-goY"/>
@@ -46,10 +46,10 @@
                         <rect key="frame" x="410" y="38" width="24" height="24"/>
                     </imageView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="CMx-bN-TwL">
-                        <rect key="frame" x="16" y="100" width="418" height="66"/>
+                        <rect key="frame" x="16" y="86" width="418" height="66"/>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nqs-9H-IEZ">
-                        <rect key="frame" x="0.0" y="176" width="450" height="1"/>
+                        <rect key="frame" x="0.0" y="152" width="450" height="1"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.94509803921568625" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="XJY-5K-czn"/>
@@ -67,9 +67,9 @@
                     <constraint firstItem="HjD-V9-WKf" firstAttribute="centerY" secondItem="fFn-cS-SOH" secondAttribute="centerY" id="PjJ-Qa-ZA1"/>
                     <constraint firstAttribute="trailing" secondItem="nqs-9H-IEZ" secondAttribute="trailing" id="TPi-oZ-S3S"/>
                     <constraint firstItem="uzh-rs-u1O" firstAttribute="centerY" secondItem="fFn-cS-SOH" secondAttribute="centerY" id="UCh-iv-s5w"/>
-                    <constraint firstItem="nqs-9H-IEZ" firstAttribute="top" secondItem="CMx-bN-TwL" secondAttribute="bottom" constant="10" id="Xu0-1O-VgZ"/>
+                    <constraint firstItem="nqs-9H-IEZ" firstAttribute="top" secondItem="CMx-bN-TwL" secondAttribute="bottom" id="Xu0-1O-VgZ"/>
                     <constraint firstItem="HjD-V9-WKf" firstAttribute="leading" secondItem="fFn-cS-SOH" secondAttribute="trailing" constant="20" id="bWP-I9-kzZ"/>
-                    <constraint firstItem="CMx-bN-TwL" firstAttribute="top" secondItem="fFn-cS-SOH" secondAttribute="bottom" constant="20" id="e2a-yN-csx"/>
+                    <constraint firstItem="CMx-bN-TwL" firstAttribute="top" secondItem="fFn-cS-SOH" secondAttribute="bottom" constant="6" id="e2a-yN-csx"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

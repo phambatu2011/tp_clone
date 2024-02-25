@@ -14,5 +14,10 @@ class TabTransferCollectionViewCell: UICollectionViewCell {
         title.text = entity.title
         image.image = UIImage(named: entity.imageString) ?? UIImage()
     }
+    
+    func binding(entity: TopSettingEnum) {
+        title.text = entity.title
+        image.image = UIImage(named: entity.imageString) ?? UIImage()
+    }
 
 }

@@ -22,9 +22,9 @@ class TabSearchViewController: BaseViewController {
     
     private func generateLayout() -> UICollectionViewLayout {
         let layout = UICollectionViewFlowLayout()
-        layout.minimumLineSpacing = 0
+        layout.minimumLineSpacing = 10
         layout.minimumInteritemSpacing = 0
-        layout.itemSize = .init(width: SCREEN_WIDTH/2 - 20, height: 100)
+        layout.itemSize = .init(width: SCREEN_WIDTH/2 - 16, height: 100)
         return layout
     }
     
@@ -43,6 +43,7 @@ extension TabSearchViewController: UICollectionViewDelegateFlowLayout, UICollect
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TabTransferCollectionViewCell",
                                                             for: indexPath) as? TabTransferCollectionViewCell else {return .init()}
         cell.binding(entity: TransferEnum.allCases[indexPath.row])
+        cell.backgroundColor = .white
         return cell
     }
     

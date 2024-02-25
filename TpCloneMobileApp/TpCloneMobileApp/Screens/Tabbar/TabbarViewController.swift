@@ -50,6 +50,10 @@ class TabbarViewController: UITabBarController {
         
     }
     
+    private func setupFontTabbar(tab: UITabBarItem) {
+        UITabBarItem.appearance()
+    }
+    
     private func configUI() {
         self.tabBar.backgroundColor = .white
         self.tabBar.tintColor = CommonColor.mainColor

@@ -19,8 +19,11 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fpb-Dv-Z7O">
-                        <rect key="frame" x="0.0" y="0.0" width="372" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="190"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="190" id="yEI-ij-Iee"/>
+                        </constraints>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="weP-Wr-4EF">
                             <size key="itemSize" width="128" height="128"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -30,7 +33,7 @@
                     </collectionView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="fpb-Dv-Z7O" secondAttribute="bottom" id="drl-yw-UML"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fpb-Dv-Z7O" secondAttribute="bottom" id="drl-yw-UML"/>
                     <constraint firstItem="fpb-Dv-Z7O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mIN-sW-QCl"/>
                     <constraint firstAttribute="trailing" secondItem="fpb-Dv-Z7O" secondAttribute="trailing" id="pKv-Ba-pCA"/>
                     <constraint firstItem="fpb-Dv-Z7O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wvF-iN-fTr"/>

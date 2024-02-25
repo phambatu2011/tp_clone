@@ -194,6 +194,7 @@
 		479A6CF02B708CDE00D9E495 /* TabSetting */ = {
 			isa = PBXGroup;
 			children = (
+				47C8D7622B8B83140060A8DD /* Header */,
 				47A132EC2B820B9800ADC776 /* Cell */,
 				479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */,
 				479A6CF22B708D0700D9E495 /* TabSettingViewController.xib */,
@@ -282,6 +283,13 @@
 				47A133032B820FC300ADC776 /* LogoutTableViewCell.xib */,
 			);
 			path = Logout;
+			sourceTree = "<group>";
+		};
+		47C8D7622B8B83140060A8DD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 		47F2C1622B6CA3750017D932 /* Screens */ = {

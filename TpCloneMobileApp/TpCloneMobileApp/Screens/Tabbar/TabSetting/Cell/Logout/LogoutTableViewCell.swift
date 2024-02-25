@@ -1,10 +1,3 @@
-//
-//  LogoutTableViewCell.swift
-//  TpCloneMobileApp
-//
-//  Created by Phạm Bá Tú on 18/02/2024.
-//
-
 import UIKit
 
 class LogoutTableViewCell: UITableViewCell {
