@@ -12,6 +12,7 @@ class TabTransferViewController: BaseViewController {
     }
     
     private func setup() {
+        setupNavigationBar(title: "Chuyển khoản")
         tableView.dataSource = self
         tableView.delegate = self
         collectionView.dataSource = self

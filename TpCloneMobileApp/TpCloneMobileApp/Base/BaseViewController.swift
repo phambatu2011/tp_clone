@@ -16,20 +16,18 @@ class BaseViewController: UIViewController {
     }
     
     func setupNavigationBar(title: String) {
-        
+        let image = UIImage(named: "home-top-bg")
+        self.navigationController?.navigationBar.setBackgroundImage(image,
+                                                                    for: .default)
         if #available(iOS 13.0, *) {
             let appearance = UINavigationBarAppearance()
             appearance.configureWithDefaultBackground()
-            appearance.backgroundColor = .init(rgb: 0xffDC8630)
-            appearance.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-            appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-            
+            appearance.backgroundImage = image
             navigationController?.navigationBar.standardAppearance = appearance
             navigationController?.navigationBar.scrollEdgeAppearance = appearance
             navigationController?.navigationBar.compactAppearance = appearance
             
         } else {
-            self.navigationController?.navigationBar.backgroundColor = .init(rgb: 0xffDC8630)
             self.navigationController?.navigationBar.tintColor = .white
             self.navigationController?.navigationBar.barTintColor = .white
             self.navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]

@@ -11,6 +11,7 @@ class TabSearchViewController: BaseViewController {
     }
 
     private func setup() {
+        setupNavigationBar(title: "Tra cứu")
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.register(.init(nibName: "TabTransferCollectionViewCell", bundle: nil),

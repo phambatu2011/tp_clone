@@ -10,6 +10,7 @@ class TabSettingViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupNavigationBar(title: "Cài đặt")
         config()
     }
     
