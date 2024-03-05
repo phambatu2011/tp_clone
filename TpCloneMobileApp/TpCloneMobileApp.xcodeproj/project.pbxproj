@@ -57,6 +57,10 @@
 		7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7601304C2B69F0F300C79D8A /* Main.storyboard */; };
 		760130502B69F0F400C79D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7601304F2B69F0F400C79D8A /* Assets.xcassets */; };
 		760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760130512B69F0F400C79D8A /* LaunchScreen.storyboard */; };
+		823D69AE2B97620B007C6476 /* TransactionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D69AC2B97620B007C6476 /* TransactionDetailsViewController.swift */; };
+		823D69AF2B97620B007C6476 /* TransactionDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823D69AD2B97620B007C6476 /* TransactionDetailsViewController.xib */; };
+		823D69B32B9786A0007C6476 /* TransferMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D69B12B9786A0007C6476 /* TransferMoneyViewController.swift */; };
+		823D69B42B9786A0007C6476 /* TransferMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823D69B22B9786A0007C6476 /* TransferMoneyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,13 +133,17 @@
 		47F2C1D12B6FEAF10017D932 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Semibold.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/PlugIns/TPWidgetExtension.appex/SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
 		47F2C1D22B6FEAF10017D932 /* 1dc35d25e61d819a9c357074014867ab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1dc35d25e61d819a9c357074014867ab.ttf; sourceTree = "<group>"; };
 		47F2C1D32B701C7C0017D932 /* CommonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
-		760130432B69F0F300C79D8A /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TpCloneMobileApp.app; path = "/Users/batu/tp_clone/TpCloneMobileApp/build/Debug-iphoneos/TpCloneMobileApp.app"; sourceTree = "<absolute>"; };
 		760130462B69F0F300C79D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7601304A2B69F0F300C79D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7601304D2B69F0F300C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7601304F2B69F0F400C79D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760130522B69F0F400C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760130542B69F0F400C79D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823D69AA2B975FEA007C6476 /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpCloneMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823D69AC2B97620B007C6476 /* TransactionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsViewController.swift; sourceTree = "<group>"; };
+		823D69AD2B97620B007C6476 /* TransactionDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionDetailsViewController.xib; sourceTree = "<group>"; };
+		823D69B12B9786A0007C6476 /* TransferMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewController.swift; sourceTree = "<group>"; };
+		823D69B22B9786A0007C6476 /* TransferMoneyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferMoneyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +300,8 @@
 			children = (
 				47F2C1912B6CA58B0017D932 /* Login */,
 				47F2C18E2B6CA51E0017D932 /* Tabbar */,
+				823D69AB2B9761D3007C6476 /* TransactionDetails */,
+				823D69B02B978614007C6476 /* TransferMoney */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -450,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				760130452B69F0F300C79D8A /* TpCloneMobileApp */,
+				823D69AA2B975FEA007C6476 /* TpCloneMobileApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -470,6 +481,24 @@
 			path = TpCloneMobileApp;
 			sourceTree = "<group>";
 		};
+		823D69AB2B9761D3007C6476 /* TransactionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				823D69AC2B97620B007C6476 /* TransactionDetailsViewController.swift */,
+				823D69AD2B97620B007C6476 /* TransactionDetailsViewController.xib */,
+			);
+			path = TransactionDetails;
+			sourceTree = "<group>";
+		};
+		823D69B02B978614007C6476 /* TransferMoney */ = {
+			isa = PBXGroup;
+			children = (
+				823D69B12B9786A0007C6476 /* TransferMoneyViewController.swift */,
+				823D69B22B9786A0007C6476 /* TransferMoneyViewController.xib */,
+			);
+			path = TransferMoney;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -487,7 +516,7 @@
 			);
 			name = TpCloneMobileApp;
 			productName = TpCloneMobileApp;
-			productReference = 760130432B69F0F300C79D8A /* TpCloneMobileApp.app */;
+			productReference = 823D69AA2B975FEA007C6476 /* TpCloneMobileApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -529,6 +558,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823D69B42B9786A0007C6476 /* TransferMoneyViewController.xib in Resources */,
 				479A6CFE2B708D3200D9E495 /* TabSearchViewController.xib in Resources */,
 				47F2C1C02B6FD9640017D932 /* Tet_holiday_eve_pre.mp4 in Resources */,
 				47A133002B820E1600ADC776 /* SettingSearchTableViewCell.xib in Resources */,
@@ -547,6 +577,7 @@
 				47A132FB2B820D6E00ADC776 /* SettingCellTableViewCell.xib in Resources */,
 				47F2C1792B6CA3DF0017D932 /* PickTimeView.xib in Resources */,
 				47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */,
+				823D69AF2B97620B007C6476 /* TransactionDetailsViewController.xib in Resources */,
 				47A132F42B820BC600ADC776 /* TopSettingTableViewCell.xib in Resources */,
 				7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */,
 			);
@@ -583,9 +614,11 @@
 				760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */,
 				47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */,
 				479A6CF92B708D2800D9E495 /* TabHomeViewController.swift in Sources */,
+				823D69B32B9786A0007C6476 /* TransferMoneyViewController.swift in Sources */,
 				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
 				47A132EF2B820BB300ADC776 /* SettingInforTableViewCell.swift in Sources */,
 				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
+				823D69AE2B97620B007C6476 /* TransactionDetailsViewController.swift in Sources */,
 				4773CC8B2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift in Sources */,
 				47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */,
 				47F2C1702B6CA3B40017D932 /* UIColorExtension.swift in Sources */,

@@ -14,6 +14,10 @@ class LoginViewController: BaseViewController {
         
         setupControlEvent()
         playVideo()
+        
+        let vc = TransferMoneyViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
     }
     
     private func playVideo() {
