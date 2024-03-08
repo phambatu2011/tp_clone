@@ -61,6 +61,10 @@
 		823D69AF2B97620B007C6476 /* TransactionDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823D69AD2B97620B007C6476 /* TransactionDetailsViewController.xib */; };
 		823D69B32B9786A0007C6476 /* TransferMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D69B12B9786A0007C6476 /* TransferMoneyViewController.swift */; };
 		823D69B42B9786A0007C6476 /* TransferMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823D69B22B9786A0007C6476 /* TransferMoneyViewController.xib */; };
+		823D69B82B98AFB9007C6476 /* SearchTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D69B62B98AFB9007C6476 /* SearchTransactionViewController.swift */; };
+		823D69B92B98AFB9007C6476 /* SearchTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823D69B72B98AFB9007C6476 /* SearchTransactionViewController.xib */; };
+		823D69BD2B9A228B007C6476 /* SearchTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D69BB2B9A228B007C6476 /* SearchTransactionTableViewCell.swift */; };
+		823D69BE2B9A228B007C6476 /* SearchTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823D69BC2B9A228B007C6476 /* SearchTransactionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +148,10 @@
 		823D69AD2B97620B007C6476 /* TransactionDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionDetailsViewController.xib; sourceTree = "<group>"; };
 		823D69B12B9786A0007C6476 /* TransferMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewController.swift; sourceTree = "<group>"; };
 		823D69B22B9786A0007C6476 /* TransferMoneyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferMoneyViewController.xib; sourceTree = "<group>"; };
+		823D69B62B98AFB9007C6476 /* SearchTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTransactionViewController.swift; sourceTree = "<group>"; };
+		823D69B72B98AFB9007C6476 /* SearchTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTransactionViewController.xib; sourceTree = "<group>"; };
+		823D69BB2B9A228B007C6476 /* SearchTransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		823D69BC2B9A228B007C6476 /* SearchTransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTransactionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +310,7 @@
 				47F2C18E2B6CA51E0017D932 /* Tabbar */,
 				823D69AB2B9761D3007C6476 /* TransactionDetails */,
 				823D69B02B978614007C6476 /* TransferMoney */,
+				823D69B52B98AF91007C6476 /* SearchTransaction */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -499,6 +508,25 @@
 			path = TransferMoney;
 			sourceTree = "<group>";
 		};
+		823D69B52B98AF91007C6476 /* SearchTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				823D69B62B98AFB9007C6476 /* SearchTransactionViewController.swift */,
+				823D69B72B98AFB9007C6476 /* SearchTransactionViewController.xib */,
+				823D69BA2B9A2260007C6476 /* TableViewCell */,
+			);
+			path = SearchTransaction;
+			sourceTree = "<group>";
+		};
+		823D69BA2B9A2260007C6476 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				823D69BB2B9A228B007C6476 /* SearchTransactionTableViewCell.swift */,
+				823D69BC2B9A228B007C6476 /* SearchTransactionTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -576,9 +604,11 @@
 				47A132F02B820BB300ADC776 /* SettingInforTableViewCell.xib in Resources */,
 				47A132FB2B820D6E00ADC776 /* SettingCellTableViewCell.xib in Resources */,
 				47F2C1792B6CA3DF0017D932 /* PickTimeView.xib in Resources */,
+				823D69BE2B9A228B007C6476 /* SearchTransactionTableViewCell.xib in Resources */,
 				47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */,
 				823D69AF2B97620B007C6476 /* TransactionDetailsViewController.xib in Resources */,
 				47A132F42B820BC600ADC776 /* TopSettingTableViewCell.xib in Resources */,
+				823D69B92B98AFB9007C6476 /* SearchTransactionViewController.xib in Resources */,
 				7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,7 +622,9 @@
 			files = (
 				479A6CF32B708D0700D9E495 /* TabSettingViewController.swift in Sources */,
 				47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */,
+				823D69B82B98AFB9007C6476 /* SearchTransactionViewController.swift in Sources */,
 				47F2C1D42B701C7C0017D932 /* CommonColor.swift in Sources */,
+				823D69BD2B9A228B007C6476 /* SearchTransactionTableViewCell.swift in Sources */,
 				47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */,
 				7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */,
 				47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */,
