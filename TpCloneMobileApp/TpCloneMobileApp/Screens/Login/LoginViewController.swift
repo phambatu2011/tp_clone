@@ -14,6 +14,7 @@ class LoginViewController: BaseViewController {
         
         setupControlEvent()
         playVideo()
+        
     }
     
     private func playVideo() {
