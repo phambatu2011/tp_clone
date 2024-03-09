@@ -1,16 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "search-black.png",
+      "filename" : "login-logo-393x852.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "search-black@2x.png",
+      "filename" : "login-logo-393x852@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "login-logo-393x852@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "search-black.png",
+      "filename" : "IMG_7830.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "search-black@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

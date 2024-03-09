@@ -93,6 +93,8 @@ class TabbarViewController: UITabBarController {
         settingNavigationController.tabBarItem = settingTab
         qrNavigationController.tabBarItem = qrTab
         
+        homeNavigationController.navigationBar.isHidden = true
+        homeNavigationController.setNavigationBarHidden(true, animated: true)
         self.viewControllers = [
             homeNavigationController,
             transferNavigationController,

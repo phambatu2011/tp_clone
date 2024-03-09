@@ -33,6 +33,9 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-logo-414x896" translatesAutoresizingMaskIntoConstraints="NO" id="Xa2-UY-Ee8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBX-k3-CYd">
                     <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                     <subviews>
@@ -149,6 +152,8 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="Xa2-UY-Ee8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="03A-Ph-5Tm"/>
+                <constraint firstItem="Xa2-UY-Ee8" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="Mxn-3P-CNc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="tBX-k3-CYd" secondAttribute="bottom" id="OPD-Xs-k4R"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tBX-k3-CYd" secondAttribute="trailing" id="OPl-gc-ttH"/>
                 <constraint firstItem="tBX-k3-CYd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="TXe-NK-bh2"/>
@@ -157,12 +162,15 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AN9-7w-yGF" secondAttribute="trailing" id="dU0-i0-1bC"/>
                 <constraint firstAttribute="bottom" secondItem="AN9-7w-yGF" secondAttribute="bottom" id="eIA-ud-ajc"/>
                 <constraint firstItem="tBX-k3-CYd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ggg-Kt-wUs"/>
+                <constraint firstItem="Xa2-UY-Ee8" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="r5m-rt-gPH"/>
+                <constraint firstItem="Xa2-UY-Ee8" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="yYX-7u-YXd"/>
             </constraints>
             <point key="canvasLocation" x="-11" y="20"/>
         </view>
     </objects>
     <resources>
         <image name="Logo_Normal" width="90" height="20.5"/>
+        <image name="login-logo-414x896" width="414" height="896"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

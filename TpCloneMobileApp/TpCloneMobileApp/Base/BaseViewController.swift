@@ -17,8 +17,7 @@ class BaseViewController: UIViewController {
     
     func setupNavigationBar(title: String) {
         let image = UIImage(named: "home-top-bg")
-        self.navigationController?.navigationBar.setBackgroundImage(image,
-                                                                    for: .default)
+        self.navigationController?.navigationBar.setBackgroundImage(image, for: .top, barMetrics: .default)
         if #available(iOS 13.0, *) {
             let appearance = UINavigationBarAppearance()
             appearance.configureWithDefaultBackground()
@@ -45,7 +44,7 @@ class BaseViewController: UIViewController {
         let titleLabel = UILabel()
         titleLabel.text = title
         titleLabel.textColor = .white
-        titleLabel.font = .systemFont(ofSize: 18)
+        titleLabel.font = .systemFont(ofSize: 17, weight: .semibold)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         navigationController?.navigationBar.addSubview(titleLabel)
         

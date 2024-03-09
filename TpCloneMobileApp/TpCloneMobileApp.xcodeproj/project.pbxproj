@@ -30,6 +30,10 @@
 		47A133002B820E1600ADC776 /* SettingSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A132FE2B820E1600ADC776 /* SettingSearchTableViewCell.xib */; };
 		47A133042B820FC300ADC776 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A133022B820FC300ADC776 /* LogoutTableViewCell.swift */; };
 		47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A133032B820FC300ADC776 /* LogoutTableViewCell.xib */; };
+		47D2B0A42B9C564100C42E3A /* AdvertisementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D2B0A22B9C564100C42E3A /* AdvertisementCollectionViewCell.swift */; };
+		47D2B0A52B9C564100C42E3A /* AdvertisementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D2B0A32B9C564100C42E3A /* AdvertisementCollectionViewCell.xib */; };
+		47D2B0A82B9C595500C42E3A /* AccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D2B0A62B9C595500C42E3A /* AccountCollectionViewCell.swift */; };
+		47D2B0A92B9C595500C42E3A /* AccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D2B0A72B9C595500C42E3A /* AccountCollectionViewCell.xib */; };
 		47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */; };
 		47F2C1452B6CA3040017D932 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1442B6CA3040017D932 /* Storage.swift */; };
 		47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */; };
@@ -83,6 +87,11 @@
 		47A132FE2B820E1600ADC776 /* SettingSearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingSearchTableViewCell.xib; sourceTree = "<group>"; };
 		47A133022B820FC300ADC776 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
 		47A133032B820FC300ADC776 /* LogoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutTableViewCell.xib; sourceTree = "<group>"; };
+		47D2B0A02B9C542500C42E3A /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpCloneMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D2B0A22B9C564100C42E3A /* AdvertisementCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementCollectionViewCell.swift; sourceTree = "<group>"; };
+		47D2B0A32B9C564100C42E3A /* AdvertisementCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertisementCollectionViewCell.xib; sourceTree = "<group>"; };
+		47D2B0A62B9C595500C42E3A /* AccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		47D2B0A72B9C595500C42E3A /* AccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCollectionViewCell.xib; sourceTree = "<group>"; };
 		47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
 		47F2C1442B6CA3040017D932 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -129,7 +138,6 @@
 		47F2C1D12B6FEAF10017D932 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFUIText-Semibold.ttf"; path = "../../../../../Desktop/TPBank Mobile 10.11.55/Payload/Hydrobank.app/PlugIns/TPWidgetExtension.appex/SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
 		47F2C1D22B6FEAF10017D932 /* 1dc35d25e61d819a9c357074014867ab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1dc35d25e61d819a9c357074014867ab.ttf; sourceTree = "<group>"; };
 		47F2C1D32B701C7C0017D932 /* CommonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColor.swift; sourceTree = "<group>"; };
-		760130432B69F0F300C79D8A /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TpCloneMobileApp.app; path = "/Users/batu/tp_clone/TpCloneMobileApp/build/Debug-iphoneos/TpCloneMobileApp.app"; sourceTree = "<absolute>"; };
 		760130462B69F0F300C79D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7601304A2B69F0F300C79D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7601304D2B69F0F300C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -209,6 +217,7 @@
 		479A6CF62B708D1900D9E495 /* TabHome */ = {
 			isa = PBXGroup;
 			children = (
+				47D2B0A12B9C562C00C42E3A /* Cell */,
 				479A6CF72B708D2800D9E495 /* TabHomeViewController.swift */,
 				479A6CF82B708D2800D9E495 /* TabHomeViewController.xib */,
 			);
@@ -285,6 +294,17 @@
 			children = (
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		47D2B0A12B9C562C00C42E3A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				47D2B0A22B9C564100C42E3A /* AdvertisementCollectionViewCell.swift */,
+				47D2B0A32B9C564100C42E3A /* AdvertisementCollectionViewCell.xib */,
+				47D2B0A62B9C595500C42E3A /* AccountCollectionViewCell.swift */,
+				47D2B0A72B9C595500C42E3A /* AccountCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		47F2C1622B6CA3750017D932 /* Screens */ = {
@@ -450,6 +470,7 @@
 			isa = PBXGroup;
 			children = (
 				760130452B69F0F300C79D8A /* TpCloneMobileApp */,
+				47D2B0A02B9C542500C42E3A /* TpCloneMobileApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -487,7 +508,7 @@
 			);
 			name = TpCloneMobileApp;
 			productName = TpCloneMobileApp;
-			productReference = 760130432B69F0F300C79D8A /* TpCloneMobileApp.app */;
+			productReference = 47D2B0A02B9C542500C42E3A /* TpCloneMobileApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -540,12 +561,14 @@
 				4773CC8C2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib in Resources */,
 				479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */,
 				47F2C1BF2B6FD95D0017D932 /* Tet_holiday.mp4 in Resources */,
+				47D2B0A52B9C564100C42E3A /* AdvertisementCollectionViewCell.xib in Resources */,
 				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
 				760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */,
 				760130502B69F0F400C79D8A /* Assets.xcassets in Resources */,
 				47A132F02B820BB300ADC776 /* SettingInforTableViewCell.xib in Resources */,
 				47A132FB2B820D6E00ADC776 /* SettingCellTableViewCell.xib in Resources */,
 				47F2C1792B6CA3DF0017D932 /* PickTimeView.xib in Resources */,
+				47D2B0A92B9C595500C42E3A /* AccountCollectionViewCell.xib in Resources */,
 				47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */,
 				47A132F42B820BC600ADC776 /* TopSettingTableViewCell.xib in Resources */,
 				7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */,
@@ -563,6 +586,7 @@
 				47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */,
 				47F2C1D42B701C7C0017D932 /* CommonColor.swift in Sources */,
 				47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */,
+				47D2B0A42B9C564100C42E3A /* AdvertisementCollectionViewCell.swift in Sources */,
 				7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */,
 				47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */,
 				47F2C17D2B6CA43E0017D932 /* CommonEnum.swift in Sources */,
@@ -572,6 +596,7 @@
 				47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */,
 				47A133042B820FC300ADC776 /* LogoutTableViewCell.swift in Sources */,
 				47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */,
+				47D2B0A82B9C595500C42E3A /* AccountCollectionViewCell.swift in Sources */,
 				47A132FF2B820E1600ADC776 /* SettingSearchTableViewCell.swift in Sources */,
 				47F2C1712B6CA3B40017D932 /* IntExtension.swift in Sources */,
 				479A6CFD2B708D3200D9E495 /* TabSearchViewController.swift in Sources */,
