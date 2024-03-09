@@ -119,7 +119,7 @@ extension TabHomeViewController: UIScrollViewDelegate {
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         if scrollView == advertisementCollectionView {
-            var index = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
+            let index = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
             if index <= 4 {
                 for (i, element) in dotCollectionOutlet.enumerated() {
                     if i == index {
