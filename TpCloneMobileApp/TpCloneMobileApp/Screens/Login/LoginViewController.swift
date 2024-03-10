@@ -4,6 +4,9 @@ import AVFoundation
 
 class LoginViewController: BaseViewController {
     
+    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var passTF: UITextField!
+    @IBOutlet weak var loginTF: UITextField!
     @IBOutlet weak var createAccount: UIView!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var videoView: UIView!
@@ -13,6 +16,14 @@ class LoginViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        loginTF.attributedPlaceholder = .init(string: "Tên đăng nhập",
+                                              attributes: [.foregroundColor: UIColor(rgb: 0xffD1D0D8)])
+        passTF.attributedPlaceholder = .init(string: "Mật khẩu",
+                                              attributes: [.foregroundColor: UIColor(rgb: 0xffD1D0D8)])
+//        loginTF.attributedText = .init(string: "",
+//                                              attributes: [.foregroundColor: UIColor.white])
+//        passTF.attributedText = .init(string: "",
+//                                      attributes: [.foregroundColor: UIColor.white])
         setupControlEvent()
         playVideo()
         
@@ -61,6 +72,7 @@ class LoginViewController: BaseViewController {
     private func setupControlEvent() {
         loginButton.addTarget(self, action: #selector(handleTapLogin), for: .touchUpInside)
         createAccount.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleCreateaccount)))
+        contentView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handlet)))
     }
 }
 
@@ -79,5 +91,9 @@ extension LoginViewController {
     @objc func handleCreateaccount() {
         let vc = CreateAccountViewController()
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func handlet() {
+        self.view.endEditing(true)
     }
 }

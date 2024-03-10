@@ -11,8 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="TpCloneMobileApp" customModuleProvider="target">
             <connections>
+                <outlet property="contentView" destination="tBX-k3-CYd" id="uFE-OZ-ukD"/>
                 <outlet property="createAccount" destination="XaS-g9-uKG" id="Cyz-pm-KBB"/>
                 <outlet property="loginButton" destination="oWW-Oe-W2D" id="D3J-Hs-XdH"/>
+                <outlet property="loginTF" destination="Z5J-f3-Uvf" id="uM8-av-ReS"/>
+                <outlet property="passTF" destination="hGc-xW-QTt" id="HkK-Se-tGn"/>
                 <outlet property="videoView" destination="AN9-7w-yGF" id="vX8-BL-ZQC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -70,6 +73,7 @@
                                         </imageView>
                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tên đăng nhập" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z5J-f3-Uvf">
                                             <rect key="frame" x="54" y="0.0" width="250" height="50"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
@@ -111,6 +115,7 @@
                                         </imageView>
                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tên đăng nhập" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGc-xW-QTt">
                                             <rect key="frame" x="54" y="0.0" width="250" height="50"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
