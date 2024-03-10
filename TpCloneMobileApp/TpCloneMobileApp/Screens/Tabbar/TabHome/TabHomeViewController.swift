@@ -2,6 +2,10 @@ import UIKit
 
 class TabHomeViewController: UIViewController {
     
+    @IBOutlet weak var vayView: UIView!
+    @IBOutlet weak var saveMoneyView: UIView!
+    @IBOutlet weak var applePayView: UIView!
+    @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet var dotCollectionOutlet: [SelectView]!
     @IBOutlet weak var accountCollectionView: UICollectionView!
     @IBOutlet weak var advertisementCollectionView: UICollectionView!
@@ -25,6 +29,15 @@ class TabHomeViewController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        navigationController?.navigationBar.isHidden = true
+        
+        accountCollectionView.reloadData()
+    }
+    
     private func setup() {
         scrollView.contentInsetAdjustmentBehavior = .never
         scrollView.delegate = self
@@ -33,11 +46,34 @@ class TabHomeViewController: UIViewController {
                                              forCellWithReuseIdentifier: "AdvertisementCollectionViewCell")
         accountCollectionView.register(.init(nibName: "AccountCollectionViewCell", bundle: nil),
                                        forCellWithReuseIdentifier: "AccountCollectionViewCell")
+        accountCollectionView.register(.init(nibName: "GoodNumberCollectionViewCell", bundle: nil),
+                                       forCellWithReuseIdentifier: "GoodNumberCollectionViewCell")
         advertisementCollectionView.dataSource = self
         advertisementCollectionView.delegate = self
         accountCollectionView.dataSource = self
         accountCollectionView.delegate = self
         dotCollectionOutlet[0].isSelected = true
+        if let acount = AppData.account {
+            userNameLabel.text = acount.userName
+        }
+        vayView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleVay)))
+        applePayView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleapplePay)))
+        saveMoneyView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleSavemn)))
+    }
+    
+    @objc func handleSavemn() {
+        let vc = PastInTransactionViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func handleapplePay() {
+        let vc = PastOutTransactionViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func handleVay() {
+        let vc = MoneyInViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
@@ -57,11 +93,33 @@ extension TabHomeViewController: UICollectionViewDataSource, UICollectionViewDel
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == accountCollectionView {
-            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AccountCollectionViewCell",
-                                                                for: indexPath) as? AccountCollectionViewCell else {return .init()}
-            cell.layer.cornerRadius = 12
-            cell.layer.masksToBounds = true
-            return cell
+            if indexPath.row == 0 {
+                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AccountCollectionViewCell",
+                                                                    for: indexPath) as? AccountCollectionViewCell else {return .init()}
+                cell.layer.cornerRadius = 12
+                cell.layer.masksToBounds = true
+                cell.binding(data: AppData.account)
+                cell.enquiryCompletion = {[weak self] in
+                    guard let self = self else {return}
+                    let vc = SearchTransactionViewController.init()
+                    vc.navigationController?.setNavigationBarHidden(false, animated: true)
+                    vc.navigationController?.navigationBar.isHidden = false
+                    self.navigationController?.pushViewController(vc, animated: true)
+                }
+                
+                cell.transferCompletion = {[weak self] in
+                    guard let self = self else {return}
+                    let vc = TransferMoneyViewController.init()
+                    self.navigationController?.pushViewController(vc, animated: true)
+                }
+                return cell
+            } else {
+                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GoodNumberCollectionViewCell",
+                                                                    for: indexPath) as? GoodNumberCollectionViewCell else {return .init()}
+                cell.layer.cornerRadius = 12
+                cell.layer.masksToBounds = true
+                return cell
+            }
         } else {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AdvertisementCollectionViewCell",
                                                                 for: indexPath) as? AdvertisementCollectionViewCell else {return .init()}

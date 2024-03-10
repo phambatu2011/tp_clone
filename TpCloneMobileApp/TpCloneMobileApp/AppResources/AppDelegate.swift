@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = .init()        
         guard let window = window else {return false}
         appNavigator = .init(window: window)
-        appNavigator?.swichToLogin()
+        appNavigator?.start()
         
         return true
     }

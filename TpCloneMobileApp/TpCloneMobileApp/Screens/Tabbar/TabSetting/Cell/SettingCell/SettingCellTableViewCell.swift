@@ -23,6 +23,7 @@ class SettingCellTableViewCell: UITableViewCell {
     
     func binding(dataSecond: SecondSectionSettingEnum) {
         self.imageSetting.image = .init(named: dataSecond.imageString)
+        self.imageSetting.tintColor = UIColor(rgb: 0xff7A7D9A)
         self.title.text = dataSecond.title
     }
 }

@@ -11,6 +11,26 @@
 		4773CC882B7541D100DB7EC1 /* TabTransferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4773CC862B7541D100DB7EC1 /* TabTransferTableViewCell.xib */; };
 		4773CC8B2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4773CC892B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift */; };
 		4773CC8C2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4773CC8A2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib */; };
+		477F3B682B9D7CD000AC632C /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477F3B662B9D7CD000AC632C /* CreateAccountViewController.xib */; };
+		477F3B692B9D7CD000AC632C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B672B9D7CD000AC632C /* CreateAccountViewController.swift */; };
+		477F3B6D2B9D7CE400AC632C /* PastOutTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477F3B6B2B9D7CE400AC632C /* PastOutTransactionViewController.xib */; };
+		477F3B6E2B9D7CE400AC632C /* PastOutTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B6C2B9D7CE400AC632C /* PastOutTransactionViewController.swift */; };
+		477F3B722B9D7CEB00AC632C /* PastInTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B702B9D7CEB00AC632C /* PastInTransactionViewController.swift */; };
+		477F3B732B9D7CEB00AC632C /* PastInTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477F3B712B9D7CEB00AC632C /* PastInTransactionViewController.xib */; };
+		477F3B772B9D7CF300AC632C /* MoneyInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B752B9D7CF300AC632C /* MoneyInViewController.swift */; };
+		477F3B782B9D7CF300AC632C /* MoneyInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477F3B762B9D7CF300AC632C /* MoneyInViewController.xib */; };
+		477F3B7F2B9D7D4500AC632C /* BalanceNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B7A2B9D7D4500AC632C /* BalanceNotificationModel.swift */; };
+		477F3B802B9D7D4500AC632C /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B7B2B9D7D4500AC632C /* HomeEntity.swift */; };
+		477F3B812B9D7D4500AC632C /* TransferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B7C2B9D7D4500AC632C /* TransferModel.swift */; };
+		477F3B822B9D7D4500AC632C /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B7D2B9D7D4500AC632C /* AccountModel.swift */; };
+		477F3B832B9D7D4500AC632C /* AppInforEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B7E2B9D7D4500AC632C /* AppInforEntity.swift */; };
+		477F3B8C2B9D7D6000AC632C /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B842B9D7D5F00AC632C /* TPKeyboardAvoidingScrollView.m */; };
+		477F3B8D2B9D7D6000AC632C /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B852B9D7D6000AC632C /* TPKeyboardAvoidingTableView.m */; };
+		477F3B8E2B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B892B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.m */; };
+		477F3B8F2B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B8A2B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		477F3B912B9D7D9900AC632C /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B902B9D7D9900AC632C /* Storage.swift */; };
+		477F3B942B9DC20600AC632C /* GoodNumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477F3B922B9DC20600AC632C /* GoodNumberCollectionViewCell.swift */; };
+		477F3B952B9DC20600AC632C /* GoodNumberCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477F3B932B9DC20600AC632C /* GoodNumberCollectionViewCell.xib */; };
 		479A6CEE2B708CD200D9E495 /* TabTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */; };
 		479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */; };
 		479A6CF32B708D0700D9E495 /* TabSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */; };
@@ -35,7 +55,6 @@
 		47D2B0A82B9C595500C42E3A /* AccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D2B0A62B9C595500C42E3A /* AccountCollectionViewCell.swift */; };
 		47D2B0A92B9C595500C42E3A /* AccountCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D2B0A72B9C595500C42E3A /* AccountCollectionViewCell.xib */; };
 		47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */; };
-		47F2C1452B6CA3040017D932 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1442B6CA3040017D932 /* Storage.swift */; };
 		47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */; };
 		47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1672B6CA3B40017D932 /* DateExtension.swift */; };
 		47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2C1682B6CA3B40017D932 /* UIViewControllerExtension.swift */; };
@@ -76,6 +95,30 @@
 		4773CC862B7541D100DB7EC1 /* TabTransferTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferTableViewCell.xib; sourceTree = "<group>"; };
 		4773CC892B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTransferCollectionViewCell.swift; sourceTree = "<group>"; };
 		4773CC8A2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferCollectionViewCell.xib; sourceTree = "<group>"; };
+		477F3B662B9D7CD000AC632C /* CreateAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
+		477F3B672B9D7CD000AC632C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		477F3B6B2B9D7CE400AC632C /* PastOutTransactionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastOutTransactionViewController.xib; sourceTree = "<group>"; };
+		477F3B6C2B9D7CE400AC632C /* PastOutTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastOutTransactionViewController.swift; sourceTree = "<group>"; };
+		477F3B702B9D7CEB00AC632C /* PastInTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastInTransactionViewController.swift; sourceTree = "<group>"; };
+		477F3B712B9D7CEB00AC632C /* PastInTransactionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastInTransactionViewController.xib; sourceTree = "<group>"; };
+		477F3B752B9D7CF300AC632C /* MoneyInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyInViewController.swift; sourceTree = "<group>"; };
+		477F3B762B9D7CF300AC632C /* MoneyInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneyInViewController.xib; sourceTree = "<group>"; };
+		477F3B7A2B9D7D4500AC632C /* BalanceNotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceNotificationModel.swift; sourceTree = "<group>"; };
+		477F3B7B2B9D7D4500AC632C /* HomeEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		477F3B7C2B9D7D4500AC632C /* TransferModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferModel.swift; sourceTree = "<group>"; };
+		477F3B7D2B9D7D4500AC632C /* AccountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		477F3B7E2B9D7D4500AC632C /* AppInforEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInforEntity.swift; sourceTree = "<group>"; };
+		477F3B842B9D7D5F00AC632C /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		477F3B852B9D7D6000AC632C /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		477F3B862B9D7D6000AC632C /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		477F3B872B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		477F3B882B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		477F3B892B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		477F3B8A2B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		477F3B8B2B9D7D6000AC632C /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		477F3B902B9D7D9900AC632C /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		477F3B922B9DC20600AC632C /* GoodNumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		477F3B932B9DC20600AC632C /* GoodNumberCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodNumberCollectionViewCell.xib; sourceTree = "<group>"; };
 		479A6CEC2B708CD200D9E495 /* TabTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTransferViewController.swift; sourceTree = "<group>"; };
 		479A6CED2B708CD200D9E495 /* TabTransferViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTransferViewController.xib; sourceTree = "<group>"; };
 		479A6CF12B708D0700D9E495 /* TabSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSettingViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +144,6 @@
 		47D2B0A62B9C595500C42E3A /* AccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCollectionViewCell.swift; sourceTree = "<group>"; };
 		47D2B0A72B9C595500C42E3A /* AccountCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCollectionViewCell.xib; sourceTree = "<group>"; };
 		47F2C1422B6CA2CD0017D932 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
-		47F2C1442B6CA3040017D932 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		47F2C1662B6CA3B40017D932 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		47F2C1672B6CA3B40017D932 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		47F2C1682B6CA3B40017D932 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -152,7 +194,6 @@
 		7601304F2B69F0F400C79D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760130522B69F0F400C79D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760130542B69F0F400C79D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		823D69AA2B975FEA007C6476 /* TpCloneMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpCloneMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		823D69AC2B97620B007C6476 /* TransactionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsViewController.swift; sourceTree = "<group>"; };
 		823D69AD2B97620B007C6476 /* TransactionDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionDetailsViewController.xib; sourceTree = "<group>"; };
 		823D69B12B9786A0007C6476 /* TransferMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +215,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		477F3B652B9D7CD000AC632C /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				477F3B662B9D7CD000AC632C /* CreateAccountViewController.xib */,
+				477F3B672B9D7CD000AC632C /* CreateAccountViewController.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		477F3B6A2B9D7CE400AC632C /* PastOutTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				477F3B6B2B9D7CE400AC632C /* PastOutTransactionViewController.xib */,
+				477F3B6C2B9D7CE400AC632C /* PastOutTransactionViewController.swift */,
+			);
+			path = PastOutTransaction;
+			sourceTree = "<group>";
+		};
+		477F3B6F2B9D7CEB00AC632C /* PastInTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				477F3B702B9D7CEB00AC632C /* PastInTransactionViewController.swift */,
+				477F3B712B9D7CEB00AC632C /* PastInTransactionViewController.xib */,
+			);
+			path = PastInTransaction;
+			sourceTree = "<group>";
+		};
+		477F3B742B9D7CF300AC632C /* MoneyIn */ = {
+			isa = PBXGroup;
+			children = (
+				477F3B752B9D7CF300AC632C /* MoneyInViewController.swift */,
+				477F3B762B9D7CF300AC632C /* MoneyInViewController.xib */,
+			);
+			path = MoneyIn;
+			sourceTree = "<group>";
+		};
+		477F3B792B9D7D4500AC632C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				477F3B7A2B9D7D4500AC632C /* BalanceNotificationModel.swift */,
+				477F3B7B2B9D7D4500AC632C /* HomeEntity.swift */,
+				477F3B7C2B9D7D4500AC632C /* TransferModel.swift */,
+				477F3B7D2B9D7D4500AC632C /* AccountModel.swift */,
+				477F3B7E2B9D7D4500AC632C /* AppInforEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		477FC4E82B709BEE002DCED2 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +409,8 @@
 				47D2B0A32B9C564100C42E3A /* AdvertisementCollectionViewCell.xib */,
 				47D2B0A62B9C595500C42E3A /* AccountCollectionViewCell.swift */,
 				47D2B0A72B9C595500C42E3A /* AccountCollectionViewCell.xib */,
+				477F3B922B9DC20600AC632C /* GoodNumberCollectionViewCell.swift */,
+				477F3B932B9DC20600AC632C /* GoodNumberCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -327,6 +418,10 @@
 		47F2C1622B6CA3750017D932 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				477F3B742B9D7CF300AC632C /* MoneyIn */,
+				477F3B6F2B9D7CEB00AC632C /* PastInTransaction */,
+				477F3B6A2B9D7CE400AC632C /* PastOutTransaction */,
+				477F3B652B9D7CD000AC632C /* CreateAccount */,
 				47F2C1912B6CA58B0017D932 /* Login */,
 				47F2C18E2B6CA51E0017D932 /* Tabbar */,
 				823D69AB2B9761D3007C6476 /* TransactionDetails */,
@@ -339,7 +434,7 @@
 		47F2C1632B6CA38A0017D932 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				47F2C1442B6CA3040017D932 /* Storage.swift */,
+				477F3B902B9D7D9900AC632C /* Storage.swift */,
 				47F2C17C2B6CA43E0017D932 /* CommonEnum.swift */,
 				47F2C19B2B6FCE290017D932 /* CommonConst.swift */,
 				47F2C1BD2B6FD6C00017D932 /* CommonUtils.swift */,
@@ -459,6 +554,14 @@
 			isa = PBXGroup;
 			children = (
 				47F2C19A2B6FCDF50017D932 /* TpCloneMobileApp-Bridging-Header.h */,
+				477F3B882B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.h */,
+				477F3B892B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.m */,
+				477F3B862B9D7D6000AC632C /* TPKeyboardAvoidingScrollView.h */,
+				477F3B842B9D7D5F00AC632C /* TPKeyboardAvoidingScrollView.m */,
+				477F3B8B2B9D7D6000AC632C /* TPKeyboardAvoidingTableView.h */,
+				477F3B852B9D7D6000AC632C /* TPKeyboardAvoidingTableView.m */,
+				477F3B872B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				477F3B8A2B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -504,6 +607,7 @@
 				47F2C17A2B6CA4070017D932 /* AppResources */,
 				47F2C1742B6CA3D30017D932 /* CustomView */,
 				47F2C1652B6CA39C0017D932 /* Extension */,
+				477F3B792B9D7D4500AC632C /* Model */,
 				47F2C1642B6CA3910017D932 /* Base */,
 				47F2C1632B6CA38A0017D932 /* Common */,
 				47F2C1622B6CA3750017D932 /* Screens */,
@@ -611,10 +715,12 @@
 				479A6CFE2B708D3200D9E495 /* TabSearchViewController.xib in Resources */,
 				47F2C1C02B6FD9640017D932 /* Tet_holiday_eve_pre.mp4 in Resources */,
 				47A133002B820E1600ADC776 /* SettingSearchTableViewCell.xib in Resources */,
+				477F3B732B9D7CEB00AC632C /* PastInTransactionViewController.xib in Resources */,
 				479A6CF42B708D0700D9E495 /* TabSettingViewController.xib in Resources */,
 				479A6CFA2B708D2800D9E495 /* TabHomeViewController.xib in Resources */,
 				47F2C1C12B6FD9640017D932 /* Tet_holiday_eve.mp4 in Resources */,
 				479A6D012B708F2400D9E495 /* tabbar_qr.gif in Resources */,
+				477F3B952B9DC20600AC632C /* GoodNumberCollectionViewCell.xib in Resources */,
 				4773CC882B7541D100DB7EC1 /* TabTransferTableViewCell.xib in Resources */,
 				4773CC8C2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.xib in Resources */,
 				479A6CEF2B708CD200D9E495 /* TabTransferViewController.xib in Resources */,
@@ -622,6 +728,7 @@
 				47D2B0A52B9C564100C42E3A /* AdvertisementCollectionViewCell.xib in Resources */,
 				47F2C1952B6CA5980017D932 /* LoginViewController.xib in Resources */,
 				760130532B69F0F400C79D8A /* LaunchScreen.storyboard in Resources */,
+				477F3B782B9D7CF300AC632C /* MoneyInViewController.xib in Resources */,
 				760130502B69F0F400C79D8A /* Assets.xcassets in Resources */,
 				47A132F02B820BB300ADC776 /* SettingInforTableViewCell.xib in Resources */,
 				47A132FB2B820D6E00ADC776 /* SettingCellTableViewCell.xib in Resources */,
@@ -629,10 +736,12 @@
 				47D2B0A92B9C595500C42E3A /* AccountCollectionViewCell.xib in Resources */,
 				823D69BE2B9A228B007C6476 /* SearchTransactionTableViewCell.xib in Resources */,
 				47A133052B820FC300ADC776 /* LogoutTableViewCell.xib in Resources */,
+				477F3B6D2B9D7CE400AC632C /* PastOutTransactionViewController.xib in Resources */,
 				823D69AF2B97620B007C6476 /* TransactionDetailsViewController.xib in Resources */,
 				47A132F42B820BC600ADC776 /* TopSettingTableViewCell.xib in Resources */,
 				823D69B92B98AFB9007C6476 /* SearchTransactionViewController.xib in Resources */,
 				7601304E2B69F0F300C79D8A /* Main.storyboard in Resources */,
+				477F3B682B9D7CD000AC632C /* CreateAccountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,31 +752,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477F3B942B9DC20600AC632C /* GoodNumberCollectionViewCell.swift in Sources */,
+				477F3B6E2B9D7CE400AC632C /* PastOutTransactionViewController.swift in Sources */,
 				479A6CF32B708D0700D9E495 /* TabSettingViewController.swift in Sources */,
 				47F2C16E2B6CA3B40017D932 /* DateExtension.swift in Sources */,
 				823D69B82B98AFB9007C6476 /* SearchTransactionViewController.swift in Sources */,
+				477F3B7F2B9D7D4500AC632C /* BalanceNotificationModel.swift in Sources */,
 				47F2C1D42B701C7C0017D932 /* CommonColor.swift in Sources */,
 				823D69BD2B9A228B007C6476 /* SearchTransactionTableViewCell.swift in Sources */,
 				47F2C1722B6CA3B40017D932 /* UIView+extentions.swift in Sources */,
+				477F3B8D2B9D7D6000AC632C /* TPKeyboardAvoidingTableView.m in Sources */,
 				47D2B0A42B9C564100C42E3A /* AdvertisementCollectionViewCell.swift in Sources */,
 				7601304B2B69F0F300C79D8A /* ViewController.swift in Sources */,
 				47F2C18D2B6CA4F10017D932 /* BaseViewController.swift in Sources */,
 				47F2C17D2B6CA43E0017D932 /* CommonEnum.swift in Sources */,
-				47F2C1452B6CA3040017D932 /* Storage.swift in Sources */,
+				477F3B692B9D7CD000AC632C /* CreateAccountViewController.swift in Sources */,
 				4773CC872B7541D100DB7EC1 /* TabTransferTableViewCell.swift in Sources */,
 				47F2C1942B6CA5980017D932 /* LoginViewController.swift in Sources */,
+				477F3B832B9D7D4500AC632C /* AppInforEntity.swift in Sources */,
 				47F2C1902B6CA51E0017D932 /* TabbarViewController.swift in Sources */,
+				477F3B812B9D7D4500AC632C /* TransferModel.swift in Sources */,
 				47A133042B820FC300ADC776 /* LogoutTableViewCell.swift in Sources */,
+				477F3B822B9D7D4500AC632C /* AccountModel.swift in Sources */,
+				477F3B8C2B9D7D6000AC632C /* TPKeyboardAvoidingScrollView.m in Sources */,
 				47F2C1732B6CA3B40017D932 /* UIImageExtension.swift in Sources */,
 				47D2B0A82B9C595500C42E3A /* AccountCollectionViewCell.swift in Sources */,
+				477F3B722B9D7CEB00AC632C /* PastInTransactionViewController.swift in Sources */,
+				477F3B772B9D7CF300AC632C /* MoneyInViewController.swift in Sources */,
 				47A132FF2B820E1600ADC776 /* SettingSearchTableViewCell.swift in Sources */,
 				47F2C1712B6CA3B40017D932 /* IntExtension.swift in Sources */,
 				479A6CFD2B708D3200D9E495 /* TabSearchViewController.swift in Sources */,
 				47F2C16D2B6CA3B40017D932 /* UIViewExtension.swift in Sources */,
+				477F3B8F2B9D7D6000AC632C /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				47F2C19C2B6FCE290017D932 /* CommonConst.swift in Sources */,
 				479A6CEE2B708CD200D9E495 /* TabTransferViewController.swift in Sources */,
 				47A132F32B820BC600ADC776 /* TopSettingTableViewCell.swift in Sources */,
+				477F3B8E2B9D7D6000AC632C /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				47A132FA2B820D6E00ADC776 /* SettingCellTableViewCell.swift in Sources */,
+				477F3B912B9D7D9900AC632C /* Storage.swift in Sources */,
 				760130472B69F0F300C79D8A /* AppDelegate.swift in Sources */,
 				47F2C16F2B6CA3B40017D932 /* UIViewControllerExtension.swift in Sources */,
 				479A6CF92B708D2800D9E495 /* TabHomeViewController.swift in Sources */,
@@ -675,6 +797,7 @@
 				47F2C1432B6CA2CD0017D932 /* AppNavigator.swift in Sources */,
 				47A132EF2B820BB300ADC776 /* SettingInforTableViewCell.swift in Sources */,
 				47F2C1782B6CA3DF0017D932 /* PickTimeView.swift in Sources */,
+				477F3B802B9D7D4500AC632C /* HomeEntity.swift in Sources */,
 				823D69AE2B97620B007C6476 /* TransactionDetailsViewController.swift in Sources */,
 				4773CC8B2B7541EA00DB7EC1 /* TabTransferCollectionViewCell.swift in Sources */,
 				47F2C1BE2B6FD6C00017D932 /* CommonUtils.swift in Sources */,

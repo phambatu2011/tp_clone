@@ -64,6 +64,7 @@ extension TabSettingViewController: UITableViewDataSource, UITableViewDelegate {
         case .infor:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "SettingInforTableViewCell",
                                                            for: indexPath) as? SettingInforTableViewCell else {return .init()}
+            cell.binding(data: AppData.account)
             cell.selectionStyle = .none
             return cell
         case .top:
@@ -121,6 +122,17 @@ extension TabSettingViewController: UITableViewDataSource, UITableViewDelegate {
             return 0
         } else {
             return 1
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let section = SettingSection(rawValue: indexPath.section)
+        switch section {
+        case .logout:
+            AppData.isLogin = false
+            APP_DELEGATE?.appNavigator?.swichToLogin()
+        default:
+            break
         }
     }
 }

@@ -15,7 +15,7 @@ class BaseViewController: UIViewController {
         super.viewDidLayoutSubviews()
     }
     
-    func setupNavigationBar(title: String) {
+    func setupNavigationBar(title: String, isBack: Bool? = false) {
         let image = UIImage(named: "home-top-bg")
         self.navigationController?.navigationBar.setBackgroundImage(image, for: .top, barMetrics: .default)
         if #available(iOS 13.0, *) {
@@ -35,7 +35,7 @@ class BaseViewController: UIViewController {
         navigationController?.navigationBar.subviews.forEach({$0.removeFromSuperview()})
         self.navigationItem.setHidesBackButton(true, animated: true)
                 
-        let back = UIImageView(image: .init(named: "ic_24px_back_Normal"))
+        let back = UIImageView(image: .init(named: "arrow-back"))
         back.isUserInteractionEnabled = true
         back.translatesAutoresizingMaskIntoConstraints = false
         back.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleBack)))
@@ -50,8 +50,8 @@ class BaseViewController: UIViewController {
         
         if let navigationBar = navigationController?.navigationBar {
             [
-                back.widthAnchor.constraint(equalToConstant: 30),
-                back.heightAnchor.constraint(equalToConstant: 30),
+                back.widthAnchor.constraint(equalToConstant: 26),
+                back.heightAnchor.constraint(equalToConstant: 26),
                 back.leadingAnchor.constraint(equalTo: navigationBar.leadingAnchor, constant: 16),
                 back.bottomAnchor.constraint(equalTo: navigationBar.bottomAnchor, constant: -8),
                 titleLabel.centerYAnchor.constraint(equalTo: back.centerYAnchor),
@@ -60,8 +60,13 @@ class BaseViewController: UIViewController {
         }
         
         let backButtonItem = UIBarButtonItem(customView: back)
-        
-        navigationController?.navigationItem.leftBarButtonItem = backButtonItem
+        if isBack == true {
+//            navigationController?.navigationItem.leftBarButtonItem = backButtonItem
+            back.isHidden = false
+        } else {
+            back.isHidden = true
+//            navigationController?.navigationItem.leftBarButtonItem = .init()
+        }
         
     }
     

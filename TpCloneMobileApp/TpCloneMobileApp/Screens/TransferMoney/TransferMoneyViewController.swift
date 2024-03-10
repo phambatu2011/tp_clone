@@ -2,34 +2,22 @@
 
 import UIKit
 
-class TransferMoneyViewController: UIViewController {
+class TransferMoneyViewController: BaseViewController {
 
     @IBOutlet weak var accoutNumberLbl: UILabel!
-    
     @IBOutlet weak var surplusNumberLbl: UILabel!
-    
     @IBOutlet weak var typeTransactionStackView: UIStackView!
-    
     @IBOutlet weak var leadingPurpleView: NSLayoutConstraint!
-    
     @IBOutlet weak var chooseBankView: UIView!
-    
-    
     @IBOutlet weak var bankNumberTextField: UITextField!
-    
     @IBOutlet weak var moneyTextField: UITextField!
-    
-    
     @IBOutlet weak var transactionContentTextField: UITextField!
-    
     @IBOutlet weak var containContinueBtnView: UIView!
-    
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupNavigationBar(title: "Chuyển Tiền Liên Ngân Hàng")
         chooseBankView.isHidden = true
         typeTransactionStackView.arrangedSubviews.forEach { sub in
             sub.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapChooseTransactionType(_:))))
@@ -73,8 +61,12 @@ class TransferMoneyViewController: UIViewController {
         }
         leadingPurpleView.constant = 2 + (CGFloat((index ?? 0)) * typeTransactionStackView.frame.width/3)
         
-        UIView.animate(withDuration: 0.25, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .curveEaseInOut) { [self] in
-            view.layoutIfNeeded()
+        UIView.animate(withDuration: 0.25, delay: 0,
+                       usingSpringWithDamping: 1,
+                       initialSpringVelocity: 0,
+                       options: .curveEaseInOut) { [weak self] in
+            guard let self = self else {return}
+            self.view.layoutIfNeeded()
         }
     }
 

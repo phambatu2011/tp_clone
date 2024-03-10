@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,10 +13,14 @@
             <connections>
                 <outlet property="accountCollectionView" destination="I1b-Kf-3hi" id="UT7-wa-rUW"/>
                 <outlet property="advertisementCollectionView" destination="n6f-w3-98J" id="lWW-rw-UBG"/>
+                <outlet property="applePayView" destination="DKd-qQ-lqe" id="NEZ-PI-Scb"/>
                 <outlet property="heightTopImageConstraint" destination="hm2-lF-Gd0" id="ffd-ON-JTn"/>
                 <outlet property="imageHeader" destination="oyf-5P-bpa" id="zgo-1b-zW0"/>
                 <outlet property="imageTopConstraint" destination="kfJ-Iq-3KH" id="fk8-G6-JKQ"/>
+                <outlet property="saveMoneyView" destination="E8e-Q6-Txg" id="v6u-LP-MED"/>
                 <outlet property="scrollView" destination="hQk-fA-9Rf" id="IjZ-kp-K4L"/>
+                <outlet property="userNameLabel" destination="Nvi-AB-4LI" id="kz8-Ab-HuP"/>
+                <outlet property="vayView" destination="EWR-p4-L0U" id="Zqo-Gn-9hO"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outletCollection property="dotCollectionOutlet" destination="is8-Ci-LaO" collectionClass="NSMutableArray" id="ZZg-XM-fKc"/>
                 <outletCollection property="dotCollectionOutlet" destination="cpa-F2-uMo" collectionClass="NSMutableArray" id="LUG-MO-rr2"/>
@@ -33,7 +37,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bem-8H-MPR">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="1162"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1062"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-navigation-bg" translatesAutoresizingMaskIntoConstraints="NO" id="oyf-5P-bpa">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
@@ -431,16 +435,26 @@
                         <constraint firstAttribute="trailing" secondItem="Bem-8H-MPR" secondAttribute="trailing" id="Twx-Vj-k7D"/>
                         <constraint firstAttribute="bottom" secondItem="Bem-8H-MPR" secondAttribute="bottom" id="fV8-k0-kOm"/>
                         <constraint firstItem="Bem-8H-MPR" firstAttribute="leading" secondItem="hQk-fA-9Rf" secondAttribute="leading" id="okS-fN-zkd"/>
-                        <constraint firstItem="Bem-8H-MPR" firstAttribute="height" secondItem="hQk-fA-9Rf" secondAttribute="height" constant="300" id="vAh-S4-qPx"/>
+                        <constraint firstItem="Bem-8H-MPR" firstAttribute="height" secondItem="hQk-fA-9Rf" secondAttribute="height" constant="200" id="vAh-S4-qPx"/>
                     </constraints>
                 </scrollView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_chatbot" translatesAutoresizingMaskIntoConstraints="NO" id="eiL-Oi-t3N">
+                    <rect key="frame" x="357" y="500" width="57" height="56"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dynamic-home" translatesAutoresizingMaskIntoConstraints="NO" id="HpK-at-NLg">
+                    <rect key="frame" x="0.0" y="424" width="20" height="48"/>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="HpK-at-NLg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="3OC-Ce-Md2"/>
+                <constraint firstItem="HpK-at-NLg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="CCf-4i-3Kg"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hQk-fA-9Rf" secondAttribute="trailing" id="Efb-Yp-TEa"/>
+                <constraint firstItem="eiL-Oi-t3N" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="80" id="MHN-Mq-Rpz"/>
                 <constraint firstItem="hQk-fA-9Rf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aiv-iq-XHp"/>
                 <constraint firstItem="hQk-fA-9Rf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bEl-Fx-DnF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eiL-Oi-t3N" secondAttribute="trailing" id="khy-8l-Rcy"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="hQk-fA-9Rf" secondAttribute="bottom" id="sfp-wW-2CW"/>
             </constraints>
             <point key="canvasLocation" x="221.73913043478262" y="39.508928571428569"/>
@@ -451,6 +465,7 @@
         <image name="apple-pay-wallet" width="69" height="36"/>
         <image name="arrow-down-blocksave" width="24" height="24"/>
         <image name="button-chatpay" width="32" height="32"/>
+        <image name="dynamic-home" width="20" height="48"/>
         <image name="home-billing" width="32" height="32"/>
         <image name="home-cardy" width="32" height="32"/>
         <image name="home-navigation-bg" width="752.66668701171875" height="558"/>
@@ -459,6 +474,7 @@
         <image name="home-savings" width="32" height="32"/>
         <image name="home-search-icon" width="20" height="20"/>
         <image name="home-wallet" width="32" height="32"/>
+        <image name="icon_chatbot" width="57" height="56"/>
         <image name="settings-new-notification" width="24" height="24"/>
         <image name="tpb-icon" width="46" height="46"/>
         <systemColor name="systemBackgroundColor">

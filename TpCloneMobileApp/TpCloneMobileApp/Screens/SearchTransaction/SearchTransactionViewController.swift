@@ -2,7 +2,7 @@
 
 import UIKit
 
-class SearchTransactionViewController: UIViewController {
+class SearchTransactionViewController: BaseViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -13,10 +13,20 @@ class SearchTransactionViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        tableView.register(UINib(nibName: "SearchTransactionTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        setupNavigationBar(title: AppData.account?.numberAccount ?? "", isBack: true)
+        
+        tableView.register(UINib(nibName: "SearchTransactionTableViewCell",
+                                 bundle: nil), forCellReuseIdentifier: "cell")
         if #available(iOS 15, *) {
             tableView.sectionHeaderTopPadding = 0
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        navigationController?.navigationBar.isHidden = false
     }
 
 }
@@ -24,15 +34,22 @@ class SearchTransactionViewController: UIViewController {
 extension SearchTransactionViewController: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        3
+        1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        2
+        if let data = AppData.listTransaction {
+            return data.count
+        } else {
+            return 0
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? SearchTransactionTableViewCell else {return UITableViewCell()}
+        if let data = AppData.listTransaction {
+            cell.binding(data: data[indexPath.row])
+        }
         return cell
     }
     
@@ -61,6 +78,11 @@ extension SearchTransactionViewController: UITableViewDelegate, UITableViewDataS
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         85
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = TransactionDetailsViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     

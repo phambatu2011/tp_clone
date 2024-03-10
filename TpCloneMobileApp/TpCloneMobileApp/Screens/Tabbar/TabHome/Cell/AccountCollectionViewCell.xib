@@ -205,6 +205,13 @@
                 <constraint firstAttribute="bottom" secondItem="xAz-qg-84L" secondAttribute="bottom" constant="10" id="hE8-DK-dwf"/>
             </constraints>
             <size key="customSize" width="405" height="291"/>
+            <connections>
+                <outlet property="enquiryView" destination="szL-V4-bFh" id="Shl-Yl-nO8"/>
+                <outlet property="moneyLabel" destination="124-Z8-txx" id="Hyv-xq-CEu"/>
+                <outlet property="numberAccountLabel" destination="sBh-ar-mhN" id="VJ0-1M-Cn8"/>
+                <outlet property="qrView" destination="JoR-f4-rYf" id="32v-UM-j2U"/>
+                <outlet property="transferView" destination="ajS-eG-usH" id="dBJ-WA-iG9"/>
+            </connections>
             <point key="canvasLocation" x="380.91603053435114" y="104.5774647887324"/>
         </collectionViewCell>
     </objects>

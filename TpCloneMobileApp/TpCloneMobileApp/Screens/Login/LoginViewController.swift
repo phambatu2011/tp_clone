@@ -4,6 +4,7 @@ import AVFoundation
 
 class LoginViewController: BaseViewController {
     
+    @IBOutlet weak var createAccount: UIView!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var videoView: UIView!
     var player: AVPlayer!
@@ -59,6 +60,7 @@ class LoginViewController: BaseViewController {
     
     private func setupControlEvent() {
         loginButton.addTarget(self, action: #selector(handleTapLogin), for: .touchUpInside)
+        createAccount.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleCreateaccount)))
     }
 }
 
@@ -70,6 +72,12 @@ extension LoginViewController {
     }
     
     @objc func handleTapLogin() {
+        AppData.isLogin = true
         APP_DELEGATE?.appNavigator?.switchToMain()
+    }
+    
+    @objc func handleCreateaccount() {
+        let vc = CreateAccountViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
