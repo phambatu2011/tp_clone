@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchTransactionViewController" customModule="TpCloneMobileApp" customModuleProvider="target">
             <connections>
+                <outlet property="numberLabel" destination="vvz-Vw-Fjx" id="Yp2-9S-L9k"/>
                 <outlet property="tableView" destination="FeX-if-Jww" id="YpL-5t-dtR"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

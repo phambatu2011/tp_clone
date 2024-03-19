@@ -11,7 +11,7 @@ struct TransferModel: Codable {
     var name2: String?
     var numberAccount2: String?
     var bank2: String?
-    var date: Date?
+    var date: Date? = .init()
     var isReceive: Bool?
     var code: String?
 }
