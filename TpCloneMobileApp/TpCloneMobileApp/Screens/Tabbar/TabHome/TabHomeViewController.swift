@@ -110,6 +110,7 @@ extension TabHomeViewController: UICollectionViewDataSource, UICollectionViewDel
                 cell.transferCompletion = {[weak self] in
                     guard let self = self else {return}
                     let vc = TransferMoneyViewController.init()
+                    vc.hidesBottomBarWhenPushed = true
                     self.navigationController?.pushViewController(vc, animated: true)
                 }
                 return cell

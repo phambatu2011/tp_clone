@@ -16,7 +16,7 @@ class BaseViewController: UIViewController {
     }
     
     func setupNavigationBar(title: String, isBack: Bool? = false) {
-        let image = UIImage(named: "home-top-bg")
+        let image = UIImage(named: "IMG_8224")
         self.navigationController?.navigationBar.setBackgroundImage(image, for: .top, barMetrics: .default)
         if #available(iOS 13.0, *) {
             let appearance = UINavigationBarAppearance()
